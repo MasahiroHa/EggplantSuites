@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1690963211.4569449,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        761,
+        475,
+        249,
+        31
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[121,154]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "EsteMassage.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963211.456944,
+  "lastfoundlocation" : [
+    1208,
+    514,
+    249,
+    31
+  ],
+  "originalcapturelocation" : [
+    761,
+    475,
+    249,
+    31
+  ],
+  "lastfounddate" : 1691043254.6132522,
+  "name" : "EsteMassage"
+}

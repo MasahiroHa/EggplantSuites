@@ -1,0 +1,65 @@
+{
+  "lastmodifieddate" : 1691042418.5693688,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        148,
+        32,
+        71,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[35,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "Touroku.png",
+      "type" : 1
+    },
+    {
+      "name" : "Touroku.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : 100,
+        "HotSpot" : "[35,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        148,
+        32,
+        71,
+        22
+      ]
+    }
+  ],
+  "createddate" : 1690962388.4544239,
+  "lastfoundlocation" : [
+    968,
+    292,
+    71,
+    22
+  ],
+  "originalcapturelocation" : [
+    148,
+    32,
+    71,
+    22
+  ],
+  "lastfounddate" : 1691043681.1749082,
+  "name" : "Touroku"
+}

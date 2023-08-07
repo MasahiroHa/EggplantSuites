@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1690963209.857455,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        13,
+        696,
+        224,
+        26
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[111,146]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "Kashikiri.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963209.8574538,
+  "lastfoundlocation" : [
+    460,
+    735,
+    224,
+    26
+  ],
+  "originalcapturelocation" : [
+    13,
+    696,
+    224,
+    26
+  ],
+  "lastfounddate" : 1691043249.850193,
+  "name" : "Kashikiri"
+}

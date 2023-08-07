@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="ThemePark">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-03 11:39:30 +0900</FirstRun>
+  <LastRun>2023-08-03 13:35:52 +0900</LastRun>
+  <TotalTimeOnSuccess>0.815526</TotalTimeOnSuccess>
+ </script>
+ <script name="OpenUrl">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-02 16:42:08 +0900</FirstRun>
+  <LastRun>2023-08-02 17:10:28 +0900</LastRun>
+  <TotalTimeOnSuccess>15.921128</TotalTimeOnSuccess>
+ </script>
+ <script name="main">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-03 09:45:57 +0900</FirstRun>
+  <LastRun>2023-08-03 15:03:54 +0900</LastRun>
+  <TotalTimeOnSuccess>47.932901</TotalTimeOnSuccess>
+ </script>
+</statistics>

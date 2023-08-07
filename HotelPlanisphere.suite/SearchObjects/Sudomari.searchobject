@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1690963209.3662529,
+  "ocrcapturestring" : ">0^0",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        83,
+        478,
+        82,
+        24
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[33,144]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : ">0^0",
+      "name" : "Sudomari.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963209.3662519,
+  "lastfoundlocation" : [
+    530,
+    517,
+    82,
+    24
+  ],
+  "originalcapturelocation" : [
+    83,
+    478,
+    82,
+    24
+  ],
+  "lastfounddate" : 1691043264.674072,
+  "name" : "Sudomari"
+}

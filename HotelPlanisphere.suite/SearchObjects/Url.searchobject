@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1690962111.203764,
+  "ocrcapturestring" : "c",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        76,
+        44,
+        18,
+        24
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[144,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "c",
+      "name" : "Url.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690962111.203763,
+  "lastfoundlocation" : [
+    76,
+    44,
+    18,
+    24
+  ],
+  "originalcapturelocation" : [
+    76,
+    44,
+    18,
+    24
+  ],
+  "lastfounddate" : 1691044501.4812469,
+  "name" : "Url"
+}

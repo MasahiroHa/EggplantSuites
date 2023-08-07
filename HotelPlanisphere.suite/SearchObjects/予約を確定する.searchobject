@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025445.252677,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        641,
+        279,
+        150,
+        24
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[75,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "予約を確定する.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025445.252676,
+  "lastfoundlocation" : [
+    1162,
+    465,
+    150,
+    24
+  ],
+  "originalcapturelocation" : [
+    641,
+    279,
+    150,
+    24
+  ],
+  "lastfounddate" : 1691044608.61763,
+  "name" : "予約を確定する"
+}

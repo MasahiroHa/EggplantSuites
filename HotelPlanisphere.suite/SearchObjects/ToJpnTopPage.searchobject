@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1690962290.657268,
+  "testlocationdata" : [
+    {
+      "name" : "ToJpnTopPage.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[79,25]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        996,
+        561,
+        138,
+        38
+      ]
+    }
+  ],
+  "createddate" : 1690962290.657268,
+  "lastfoundlocation" : [
+    996,
+    561,
+    138,
+    38
+  ],
+  "originalcapturelocation" : [
+    996,
+    561,
+    138,
+    38
+  ],
+  "lastfounddate" : 1691044506.337502,
+  "name" : "ToJpnTopPage"
+}

@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025446.2702708,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        36,
+        464,
+        118,
+        21
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[-11,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "朝食.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025446.2702708,
+  "lastfoundlocation" : [
+    557,
+    650,
+    118,
+    21
+  ],
+  "originalcapturelocation" : [
+    36,
+    464,
+    118,
+    21
+  ],
+  "lastfounddate" : 1691044229.7475929,
+  "name" : "朝食"
+}

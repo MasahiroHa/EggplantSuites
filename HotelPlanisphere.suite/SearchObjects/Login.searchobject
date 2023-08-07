@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1690962389.654386,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        270,
+        22,
+        92,
+        40
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "HotSpot" : "[46,20]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "Login.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690962389.6543851,
+  "lastfoundlocation" : [
+    1090,
+    282,
+    92,
+    40
+  ],
+  "originalcapturelocation" : [
+    270,
+    22,
+    92,
+    40
+  ],
+  "lastfounddate" : 1691044508.6206942,
+  "name" : "Login"
+}

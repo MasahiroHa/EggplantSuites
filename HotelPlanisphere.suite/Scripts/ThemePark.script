@@ -1,0 +1,328 @@
+﻿
+to handle Input宿泊日から氏名
+	宿泊日_Click
+	宿泊数_Click
+	人数_Click
+	追加プラン
+	Input氏名
+	Input連絡先
+//	Inputご要望
+//	CaptureScreen {Name: "InputAll"}
+	
+end Input宿泊日から氏名
+
+
+(*** Autosnippet script "ThemePark" generated 2023-08-03 by 長谷部雅洋. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Checkpoint "ThemeParkPgTiitle" *)
+
+to handle ThemeParkPgTiitle_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"ThemeParkPgTiitle"
+end ThemeParkPgTiitle_Validate
+
+to handle ThemeParkPgTiitle_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"ThemeParkPgTiitle", waitFor:duration)
+end ThemeParkPgTiitle_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "おひとり様1泊" *)
+
+to handle おひとり様1泊_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"おひとり様1泊"
+end おひとり様1泊_Validate
+
+to handle おひとり様1泊_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"おひとり様1泊", waitFor:duration)
+end おひとり様1泊_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "土日は" *)
+
+to handle 土日は_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"土日は"
+end 土日は_Validate
+
+to handle 土日は_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"土日は", waitFor:duration)
+end 土日は_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "1から9名" *)
+
+to handle _1から9名_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"1から9名"
+end _1から9名_Validate
+
+to handle _1から9名_IsFound duration
+	if duration is not a number then set duration to 8
+return imageFound(imageName:"1から9名", waitFor:duration)
+end _1から9名_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "最長5泊" *)
+
+to handle 最長5泊_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"最長5泊"
+end 最長5泊_Validate
+
+to handle 最長5泊_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"最長5泊", waitFor:duration)
+end 最長5泊_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "宿泊日" *)
+
+to handle 宿泊日_Click
+	Click imageName:"宿泊日", waitFor:8
+	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
+	put ReadText(["CalenderBlueRU_A","CalenderBlueRU_B"]) into today
+	set lastDay to 31
+	
+	set selday to random(today, lastDay)
+	set the SearchRectangle to empty
+	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
+	Click text:selday, waitFor:10
+	
+	//	set the SearchRectangle to empty
+	//	Set the SearchRectangle to ("CalenderClose_A","CalenderClose_B")
+	
+	//	Click text:"閉じる", waitFor:10, validCharacters:"*"
+	
+	set the SearchRectangle to empty
+end 宿泊日_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "宿泊数" *)
+
+to handle 宿泊数_Click
+	Click imageName:"宿泊数", waitFor:8
+	set selDays to random(0, 4)
+	Repeat while selDays > repeatindex()
+		Click (Image:"宿泊数設定", WaitFor:10)
+	End repeat
+	
+	
+end 宿泊数_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "予約を確定する" *)
+
+to handle 予約を確定する_Click
+	Click imageName:"予約を確定する", waitFor:8
+	
+end 予約を確定する_Click
+
+-----------------------------------
+
+
+(* Autosnippets for DropDown_Desktop "人数" *)
+
+to handle 人数_Click
+	Click imageName:"人数", waitFor:8
+	set P to random(0, 8)
+	Repeat while P > repeatindex()
+		Click (Image:"人数設定", WaitFor:10)
+	End repeat
+end 人数_Click
+
+-----------------------------------
+
+
+to handle 追加プラン
+	set selNo to random(1,3)
+	if selNo = 1 then
+		朝食_Toggle
+	else if selNo = 2 then
+		昼からチェックイン_Toggle
+	else if selNo = 3 then
+		お得な観光プラン_Toggle
+	end if
+	
+end 追加プラン
+
+
+(* Autosnippets for Checkbox "朝食" *)
+
+to handle 朝食_Toggle
+	// Assumes the hot spot has been set over the checkbox or 
+	// that clicking on the center of the checkbox label will toggle the checkbox.
+	
+	Click imageName:"朝食", waitFor:8
+end 朝食_Toggle
+
+-----------------------------------
+
+
+
+
+
+
+(* Autosnippets for Checkbox "昼からチェックイン" *)
+
+to handle 昼からチェックイン_Toggle
+	// Assumes the hot spot has been set over the checkbox or 
+	// that clicking on the center of the checkbox label will toggle the checkbox.
+	
+	Click imageName:"昼からチェックイン", waitFor:8
+end 昼からチェックイン_Toggle
+
+-----------------------------------
+
+
+(* Autosnippets for Checkbox "お得な観光プラン" *)
+
+to handle お得な観光プラン_Toggle
+	// Assumes the hot spot has been set over the checkbox or 
+	// that clicking on the center of the checkbox label will toggle the checkbox.
+	
+	Click imageName:"お得な観光プラン", waitFor:8
+end お得な観光プラン_Toggle
+
+-----------------------------------
+
+
+to handle Input氏名
+	氏名_EnterText "MSYS 太郎", enterKey
+end Input氏名
+
+
+(* Autosnippets for Field "氏名" *)
+
+to handle 氏名_EnterText theValue, terminator
+	// Assumes the hot spot has been set over the text field
+	// and that the field is already empty.
+	
+	// Click the location of the hot spot.
+	Click imageName:"氏名", waitFor:8
+	//Type theValue and optional terminator (such as 'return' or 'tab') into the field.
+	TypeText theValue, terminator
+end 氏名_EnterText
+
+to handle 氏名_ReadText
+	// Assumes the hot spot has been set over the text field.
+	
+	// Use OCR to read the text around that hot spot point.
+	set theText to readText(imageLocation(imageName:"氏名"))
+	// Any additional cleanup of the text could be done here before returning the value, such as:
+	// set theText to trim(theText) -- remove leading/trailing whitespace
+	return theText
+end 氏名_ReadText
+
+-----------------------------------
+
+to handle Input連絡先 selNo
+	//	set selNo to random(1,3)
+	if selNo = 1 then
+		set selTxt to "希望しない"
+	else if selNo = 2
+		
+		set selTxt to "メールでのご連絡"
+	else
+		set selTxt to "電話でのご連絡"
+	end if
+	連絡先_SelectItem_Desktop selTxt
+	set the SearchRectangle to empty
+end Input連絡先
+
+
+
+(* Autosnippets for DropDown_Desktop "連絡先" *)
+
+to handle 連絡先_SelectItem_Desktop itemName
+	// Assumes the hot spot has been set over the dropdown menu
+	// and that no scrolling or swiping is needed to select the item from the list.
+	
+	// Pop open the list by clicking the dropdown's hot spot.
+	Click imageName:"連絡先", waitFor:8
+	set rect to the foundImageInfo's imageRectangle
+	
+	// Look for the desired item in a rect that extends a bit above and to the left
+	// of the dropdown itself, plus a generous margin to the right and all the way down
+	// Change the adjustments as needed based on the size of the dropdown and direction it expands.
+	set searchLeft to (the left of rect - 30) but no less than 0
+	set searchRight to (the right of rect + 200) but no more than the right of the remoteScreenRectangle
+	set searchTop to (the top of rect - 30) but no less than 0
+	set searchBottom to the bottom of the remoteScreenRectangle
+	
+	click text:itemName, searchRectangle:[searchLeft, searchTop, searchRight, searchBottom], language:"Japanese, JapaneseModern"
+end 連絡先_SelectItem_Desktop
+
+-----------------------------------
+
+to handle メール
+	Click (Image:"メールアドレス", WaitFor:10)
+	TypeText "msysdemo@marubeni-sys.com"	
+end メール
+
+to handle 電話
+	Click (Image:"電話番号", WaitFor:10)
+	TypeText "12345678901"
+	
+end 電話
+
+
+to handle Inputご要望 rsMessage
+	ご要望_EnterText rsMessage,returnKey
+end Inputご要望
+
+
+(* Autosnippets for Field "ご要望" *)
+
+to handle ご要望_EnterText theValue, terminator
+	// Assumes the hot spot has been set over the text field
+	// and that the field is already empty.
+	
+	// Click the location of the hot spot.
+	Click imageName:"ご要望", waitFor:8
+	//Type theValue and optional terminator (such as 'return' or 'tab') into the field.
+	TypeText theValue, terminator
+end ご要望_EnterText
+
+to handle ご要望_ReadText
+	// Assumes the hot spot has been set over the text field.
+	
+	// Use OCR to read the text around that hot spot point.
+	set theText to readText(imageLocation(imageName:"ご要望"))
+	// Any additional cleanup of the text could be done here before returning the value, such as:
+	// set theText to trim(theText) -- remove leading/trailing whitespace
+	return theText
+end ご要望_ReadText
+
+-----------------------------------
+
+
+(*** End of Autosnippet script ThemePark.script ***)
+
+to handle 閉じる
+	Click (Image:"閉じる", WaitFor:30)
+	
+end 閉じる
+
+

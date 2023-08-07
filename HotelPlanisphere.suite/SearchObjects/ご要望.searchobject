@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025448.7642012,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        756,
+        53,
+        21
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[56,71]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "ご要望.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025448.7642,
+  "lastfoundlocation" : [
+    538,
+    1052,
+    53,
+    21
+  ],
+  "originalcapturelocation" : [
+    17,
+    756,
+    53,
+    21
+  ],
+  "lastfounddate" : 1691044606.789639,
+  "name" : "ご要望"
+}

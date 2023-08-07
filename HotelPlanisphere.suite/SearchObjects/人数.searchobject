@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025445.702394,
+  "ocrcapturestring" : "AS",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        346,
+        37,
+        21
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[47,52]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "AS",
+      "name" : "人数.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025445.7023931,
+  "lastfoundlocation" : [
+    538,
+    532,
+    37,
+    21
+  ],
+  "originalcapturelocation" : [
+    17,
+    346,
+    37,
+    21
+  ],
+  "lastfounddate" : 1691044583.8496761,
+  "name" : "人数"
+}

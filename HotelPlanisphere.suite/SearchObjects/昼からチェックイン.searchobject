@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025446.7027359,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        36,
+        503,
+        197,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[-13,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "昼からチェックイン.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025446.7027349,
+  "lastfoundlocation" : [
+    557,
+    689,
+    197,
+    22
+  ],
+  "originalcapturelocation" : [
+    36,
+    503,
+    197,
+    22
+  ],
+  "lastfounddate" : 1691043297.050838,
+  "name" : "昼からチェックイン"
+}

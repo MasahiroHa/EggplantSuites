@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025443.311326,
+  "ocrcapturestring" : "igw~9gw.",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        343,
+        111,
+        107,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_42",
+        "HotSpot" : "[53,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "igw~9gw.",
+      "name" : "1から9名.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025443.3113251,
+  "lastfoundlocation" : [
+    864,
+    297,
+    107,
+    22
+  ],
+  "originalcapturelocation" : [
+    343,
+    111,
+    107,
+    22
+  ],
+  "lastfounddate" : 1691044571.079072,
+  "name" : "1から9名"
+}

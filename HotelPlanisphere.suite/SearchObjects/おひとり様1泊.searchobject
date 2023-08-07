@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025442.153074,
+  "ocrcapturestring" : "as- AHHiBlO,OOOF3~.",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        111,
+        177,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_42",
+        "HotSpot" : "[88,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "as- AHHiBlO,OOOF3~.",
+      "name" : "おひとり様1泊.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025442.1530728,
+  "lastfoundlocation" : [
+    538,
+    297,
+    177,
+    22
+  ],
+  "originalcapturelocation" : [
+    17,
+    111,
+    177,
+    22
+  ],
+  "lastfounddate" : 1691044573.091563,
+  "name" : "おひとり様1泊"
+}

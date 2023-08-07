@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1690963207.022908,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        91,
+        5,
+        230,
+        36
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[114,18]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "SyukuhakuListLogo.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963207.022908,
+  "lastfoundlocation" : [
+    538,
+    412,
+    230,
+    36
+  ],
+  "originalcapturelocation" : [
+    91,
+    5,
+    230,
+    36
+  ],
+  "lastfounddate" : 1691044565.631134,
+  "name" : "SyukuhakuListLogo"
+}

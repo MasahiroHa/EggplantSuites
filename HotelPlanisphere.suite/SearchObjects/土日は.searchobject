@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025442.8157659,
+  "ocrcapturestring" : "±B(^25%77'_yZ7o",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        200,
+        110,
+        137,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_42",
+        "HotSpot" : "[68,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "±B(^25%77'_yZ7o",
+      "name" : "土日は.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025442.8157649,
+  "lastfoundlocation" : [
+    721,
+    296,
+    137,
+    23
+  ],
+  "originalcapturelocation" : [
+    200,
+    110,
+    137,
+    23
+  ],
+  "lastfounddate" : 1691025450.1270051,
+  "name" : "土日は"
+}

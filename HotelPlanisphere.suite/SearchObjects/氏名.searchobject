@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025447.852134,
+  "ocrcapturestring" : "S.&",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        584,
+        36,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[27,51]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "S.&",
+      "name" : "氏名.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025447.852133,
+  "lastfoundlocation" : [
+    538,
+    770,
+    36,
+    22
+  ],
+  "originalcapturelocation" : [
+    17,
+    584,
+    36,
+    22
+  ],
+  "lastfounddate" : 1691044592.2156858,
+  "name" : "氏名"
+}

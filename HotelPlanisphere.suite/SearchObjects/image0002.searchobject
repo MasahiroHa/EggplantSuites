@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1690963358.4732389,
+  "ocrcapturestring" : "X",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        1890,
+        6,
+        16,
+        16
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[7,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "X",
+      "name" : "Close.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963342.175786,
+  "lastfoundlocation" : [
+    1890,
+    6,
+    16,
+    16
+  ],
+  "originalcapturelocation" : [
+    1890,
+    6,
+    16,
+    16
+  ],
+  "lastfounddate" : 1691044615.0795522,
+  "name" : "image0002"
+}

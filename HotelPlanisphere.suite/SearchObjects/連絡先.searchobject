@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025448.3037491,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        16,
+        670,
+        102,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[532,51]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "連絡先.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025448.3037319,
+  "lastfoundlocation" : [
+    537,
+    856,
+    102,
+    22
+  ],
+  "originalcapturelocation" : [
+    16,
+    670,
+    102,
+    22
+  ],
+  "lastfounddate" : 1691044600.3109179,
+  "name" : "連絡先"
+}

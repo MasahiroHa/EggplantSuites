@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1691037045.281487,
+  "testlocationdata" : [
+    {
+      "name" : "この内容で予約する.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[66,13]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        887,
+        662,
+        149,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1691037045.281487,
+  "lastfoundlocation" : [
+    887,
+    662,
+    149,
+    23
+  ],
+  "originalcapturelocation" : [
+    887,
+    662,
+    149,
+    23
+  ],
+  "lastfounddate" : 1691044611.5387311,
+  "name" : "この内容で予約する"
+}

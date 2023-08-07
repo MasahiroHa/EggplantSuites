@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1690963207.662312,
+  "ocrcapturestring" : "3S\tdi) 7\" 3* > ☆",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        426,
+        120,
+        159,
+        24
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[79,12]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "3S\tdi) 7\" 3* > ☆",
+      "name" : "Osusume.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963207.6623111,
+  "lastfoundlocation" : [
+    873,
+    527,
+    159,
+    24
+  ],
+  "originalcapturelocation" : [
+    426,
+    120,
+    159,
+    24
+  ],
+  "lastfounddate" : 1691044566.917697,
+  "name" : "Osusume"
+}

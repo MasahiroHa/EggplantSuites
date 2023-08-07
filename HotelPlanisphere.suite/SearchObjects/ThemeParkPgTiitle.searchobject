@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1691025441.3208499,
+  "ocrcapturestring" : "7",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        68,
+        269,
+        31
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[134,16]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "7",
+      "name" : "ThemeParkPgTiitle.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025441.3208489,
+  "lastfoundlocation" : [
+    538,
+    254,
+    269,
+    31
+  ],
+  "originalcapturelocation" : [
+    17,
+    68,
+    269,
+    31
+  ],
+  "lastfounddate" : 1691044572.0483761,
+  "name" : "ThemeParkPgTiitle"
+}

@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1690963208.3075089,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        404,
+        175,
+        203,
+        26
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[97,149]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "Otoku.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963208.3075089,
+  "lastfoundlocation" : [
+    851,
+    214,
+    203,
+    26
+  ],
+  "originalcapturelocation" : [
+    404,
+    175,
+    203,
+    26
+  ],
+  "lastfounddate" : 1691043259.6344728,
+  "name" : "Otoku"
+}

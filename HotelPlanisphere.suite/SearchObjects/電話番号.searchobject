@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1691040030.5730882,
+  "testlocationdata" : [
+    {
+      "name" : "電話番号.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[33,48]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        538,
+        943,
+        69,
+        20
+      ]
+    }
+  ],
+  "createddate" : 1691040030.573087,
+  "lastfoundlocation" : [
+    538,
+    943,
+    69,
+    20
+  ],
+  "originalcapturelocation" : [
+    538,
+    943,
+    69,
+    20
+  ],
+  "lastfounddate" : 1691044604.9119411,
+  "name" : "電話番号"
+}

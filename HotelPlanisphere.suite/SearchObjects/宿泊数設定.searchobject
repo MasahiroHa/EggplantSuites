@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1691030058.9535589,
+  "testlocationdata" : [
+    {
+      "name" : "宿泊数設定.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[480,47]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        536,
+        447,
+        95,
+        21
+      ]
+    }
+  ],
+  "createddate" : 1691030058.953558,
+  "lastfoundlocation" : [
+    536,
+    447,
+    95,
+    21
+  ],
+  "originalcapturelocation" : [
+    536,
+    447,
+    95,
+    21
+  ],
+  "lastfounddate" : 1691044582.6373858,
+  "name" : "宿泊数設定"
+}

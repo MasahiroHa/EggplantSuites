@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025444.15204,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        16,
+        151,
+        52,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[58,54]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "宿泊日.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025444.15204,
+  "lastfoundlocation" : [
+    537,
+    337,
+    52,
+    22
+  ],
+  "originalcapturelocation" : [
+    16,
+    151,
+    52,
+    22
+  ],
+  "lastfounddate" : 1691044574.074713,
+  "name" : "宿泊日"
+}

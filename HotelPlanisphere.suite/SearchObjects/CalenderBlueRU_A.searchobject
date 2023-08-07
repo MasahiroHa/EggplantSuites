@@ -1,0 +1,46 @@
+{
+  "lastmodifieddate" : 1691029892.5719662,
+  "testlocationdata" : [
+    {
+      "name" : "CalenderBlueRU_A.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : 60,
+        "HotSpot" : "[15,5]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        726,
+        486,
+        21,
+        11
+      ]
+    }
+  ],
+  "createddate" : 1691029892.571965,
+  "lastfoundlocation" : [
+    726,
+    486,
+    21,
+    11
+  ],
+  "originalcapturelocation" : [
+    726,
+    486,
+    21,
+    11
+  ],
+  "lastfounddate" : 1691044575.9943299,
+  "name" : "CalenderBlueRU_A"
+}

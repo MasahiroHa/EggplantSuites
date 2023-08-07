@@ -1,0 +1,22 @@
+﻿{
+    CaptureDate = "2023-08-03 04:40:23 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        "1920",
+        "1200");
+    HasAlpha = 1;
+    HotSpotX = 213;
+    HotSpotY = 8;
+    ImageDescription = <>;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 258;
+    OriginalLocationY = 10;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "Adaptive";
+    SearchObjectName = "Close宿泊予約";
+    WaitFor = nil;
+    tags = ();
+}

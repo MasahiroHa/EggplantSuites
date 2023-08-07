@@ -1,0 +1,65 @@
+{
+  "lastmodifieddate" : 1691041739.2006021,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        20,
+        31,
+        71,
+        23
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[35,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "Yoyaku.png",
+      "type" : 1
+    },
+    {
+      "name" : "Yoyaku.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_31",
+        "HotSpot" : "[35,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        20,
+        31,
+        71,
+        23
+      ]
+    }
+  ],
+  "createddate" : 1690962387.2715201,
+  "lastfoundlocation" : [
+    840,
+    291,
+    71,
+    23
+  ],
+  "originalcapturelocation" : [
+    20,
+    31,
+    71,
+    23
+  ],
+  "lastfounddate" : 1691044509.5237689,
+  "name" : "Yoyaku"
+}
