@@ -1,0 +1,5 @@
+﻿to handle gotoTop
+	wait 2	
+	TypeText pageUp
+	
+end gotoTop

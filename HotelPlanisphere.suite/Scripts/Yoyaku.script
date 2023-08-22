@@ -1,0 +1,130 @@
+﻿(*** Autosnippet script "Yoyaku" generated 2023-08-02 by 長谷部雅洋. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Checkpoint "SyukuhakuListLogo" *)
+
+to handle SyukuhakuListLogo_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"SyukuhakuListLogo"
+end SyukuhakuListLogo_Validate
+
+to handle SyukuhakuListLogo_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"SyukuhakuListLogo", waitFor:duration)
+end SyukuhakuListLogo_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "Osusume" *)
+
+to handle Osusume_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"Osusume"
+end Osusume_Validate
+
+to handle Osusume_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"Osusume", waitFor:duration)
+end Osusume_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Otoku" *)
+
+to handle Otoku_Click
+	Click imageName:"Otoku", waitFor:8
+end Otoku_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Checkpoint "Honjitsu" *)
+
+to handle Honjitsu_Validate duration
+	if duration is not a number then set duration to 8
+	WaitFor duration, imageName:"Honjitsu"
+end Honjitsu_Validate
+
+to handle Honjitsu_IsFound duration
+	if duration is not a number then set duration to 8
+	return imageFound(imageName:"Honjitsu", waitFor:duration)
+end Honjitsu_IsFound
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Sudomari" *)
+
+to handle Sudomari_Click
+	Click imageName:"Sudomari", waitFor:8
+end Sudomari_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Kashikiri" *)
+
+to handle Kashikiri_Click
+	Click imageName:"Kashikiri", waitFor:8
+end Kashikiri_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "ThemePark" *)
+
+to handle ThemePark_Click
+	Click imageName:"ThemePark", waitFor:8
+end ThemePark_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "BussinessPlant" *)
+
+to handle BussinessPlant_Click
+	Click imageName:"BussinessPlant", waitFor:8
+end BussinessPlant_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "EsteMassage" *)
+
+to handle EsteMassage_Click
+	Click imageName:"EsteMassage", waitFor:8
+end EsteMassage_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Couple" *)
+
+to handle Couple_Click
+	Click imageName:"Couple", waitFor:8
+end Couple_Click
+
+-----------------------------------
+to handle YoyakuInit
+	TypeText DownArrow,DownArrow,DownArrow,DownArrow,DownArrow
+end YoyakuInit
+
+
+
+(*** End of Autosnippet script Yoyaku.script ***)
+
+to handle Close
+	wait 2
+	CaptureScreen {Name: "BeforeClose"}
+	
+	Click (Image:"Close宿泊予約", WaitFor:10)
+	
+end Close
+
+
+

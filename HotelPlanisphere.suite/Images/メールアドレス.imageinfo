@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-08-03 05:17:04 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 75;
+    HotSpotY = 50;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 538;
+    OriginalLocationY = 943;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "メールアドレス";
+    tags = ();
+}

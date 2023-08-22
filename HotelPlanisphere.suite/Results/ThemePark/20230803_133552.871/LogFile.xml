@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="ThemePark_script" package="HotelPlanisphere.suite" timestamp="2023-08-03 13:35:52.871 +0900"
+ tests="1"  failures="0" errors="0" time="0.214026">
+  <properties>
+   <property name="RunDate" value="2023-08-03 13:35:52.871 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="ThemePark.script" assertions="1" status="success"  time="0.194149">
+  </testcase>
+ </testsuite>
+</testsuites>

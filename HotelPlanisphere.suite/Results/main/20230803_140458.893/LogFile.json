@@ -1,0 +1,64 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running main.script",
+      "timestamp" : "2023-08-03 14:04:58.903 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (54, 136)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 8,
+      "timestamp" : "2023-08-03 14:04:59.842 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 9,
+      "timestamp" : "2023-08-03 14:05:10.998 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-08-03 14:05:12.220 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 10
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 11,
+      "timestamp" : "2023-08-03 14:05:14.442 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 12,
+      "timestamp" : "2023-08-03 14:05:14.901 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"16.148793\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-08-03 14:04:58 +0900\", Successes:\"1\", TestCase:\"main.script\", Warnings:\"0\")",
+      "timestamp" : "2023-08-03 14:05:15.054 +0900"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:16 main.script",
+      "timestamp" : "2023-08-03 14:05:15.203 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-08-03 14:04:58.904 +0900"
+}

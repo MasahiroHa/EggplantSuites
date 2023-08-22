@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-08-03 04:32:03 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 23;
+    HotSpotY = 20;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 1119;
+    OriginalLocationY = 258;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Popup閉じる";
+    tags = ();
+}
