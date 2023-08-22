@@ -11,3 +11,6 @@ TypeText "https://hotel.testplanisphere.dev",Return
 WaitFor 20, "HOTELPLANISPHERE_Logo.png"
 Click (Image:"ToJpnTopPage", WaitFor:20)
 
+Log "Start movie"
+
+StartMovie "Hotelplan"

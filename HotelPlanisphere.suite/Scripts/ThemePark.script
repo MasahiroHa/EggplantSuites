@@ -5,7 +5,7 @@ to handle Input宿泊日から氏名
 	人数_Click
 	追加プラン
 	Input氏名
-	Input連絡先
+//	Input連絡先
 	//	Inputご要望
 	//	CaptureScreen {Name: "InputAll"}
 	
@@ -99,7 +99,16 @@ to handle 宿泊日_Click
 	Click imageName:"宿泊日", waitFor:8
 	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
 	put ReadText(["CalenderBlueRU_A","CalenderBlueRU_B"]) into today
-	set lastDay to 31
+
+	set curM to month()
+	if ...
+		... curM = 1 or curM = 3 or curM = 7 or curM=8 or curM=10 or curM=12:
+			set lastDay to 31
+		... curM = 4 or curM= 6 or curM=9 or curM =11 :
+			set lastDay to 30	
+		... Else
+			set lastDay to 28	
+	End if
 	
 	set selday to random(today, lastDay)
 	set the SearchRectangle to empty
@@ -181,10 +190,6 @@ to handle 朝食_Toggle
 end 朝食_Toggle
 
 -----------------------------------
-
-
-
-
 
 
 (* Autosnippets for Checkbox "昼からチェックイン" *)

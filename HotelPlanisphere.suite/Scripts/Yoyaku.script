@@ -38,6 +38,9 @@ end Osusume_IsFound
 
 to handle Otoku_Click
 	Click imageName:"Otoku", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "お得な特典付きプラン"
 end Otoku_Click
 
 -----------------------------------
@@ -62,6 +65,9 @@ end Honjitsu_IsFound
 
 to handle Sudomari_Click
 	Click imageName:"Sudomari", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "素泊まり"
 end Sudomari_Click
 
 -----------------------------------
@@ -71,6 +77,9 @@ end Sudomari_Click
 
 to handle Kashikiri_Click
 	Click imageName:"Kashikiri", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "貸し切り露天風呂プラン"
 end Kashikiri_Click
 
 -----------------------------------
@@ -80,6 +89,9 @@ end Kashikiri_Click
 
 to handle ThemePark_Click
 	Click imageName:"ThemePark", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "テーマパーク優待プラン"
 end ThemePark_Click
 
 -----------------------------------
@@ -89,6 +101,9 @@ end ThemePark_Click
 
 to handle BussinessPlant_Click
 	Click imageName:"BussinessPlant", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "出張ビジネスプラン"
 end BussinessPlant_Click
 
 -----------------------------------
@@ -98,6 +113,9 @@ end BussinessPlant_Click
 
 to handle EsteMassage_Click
 	Click imageName:"EsteMassage", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "エステ・マッサージプラン"
 end EsteMassage_Click
 
 -----------------------------------
@@ -107,6 +125,9 @@ end EsteMassage_Click
 
 to handle Couple_Click
 	Click imageName:"Couple", waitFor:8
+	
+	共通.WaitScnTxt "宿泊予約"
+	共通.WaitScnTxt "カップル限定プラン"
 end Couple_Click
 
 -----------------------------------
