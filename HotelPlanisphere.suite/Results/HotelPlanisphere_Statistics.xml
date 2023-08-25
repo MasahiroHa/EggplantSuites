@@ -10,11 +10,11 @@
  </script>
  <script name="OpenUrl">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfRuns>3</NumberOfRuns>
   <NumberOfFails>0</NumberOfFails>
   <FirstRun>2023-08-02 16:42:08 +0900</FirstRun>
-  <LastRun>2023-08-02 17:10:28 +0900</LastRun>
-  <TotalTimeOnSuccess>15.921128</TotalTimeOnSuccess>
+  <LastRun>2023-08-24 16:22:28 +0900</LastRun>
+  <TotalTimeOnSuccess>26.113395</TotalTimeOnSuccess>
  </script>
  <script name="main">
   <LastStatus>Success</LastStatus>
