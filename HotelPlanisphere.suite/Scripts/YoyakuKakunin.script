@@ -1,5 +1,7 @@
 ﻿to handle Validate_予約確認 
 	WaitFor 8.0, "宿泊予約確認"
+	WaitFor 8.0, "ThemeParkPgTiitle"
+	共通.WaitScnTxt "MSYS 太郎"
 	CaptureScreen {Name: "予約確認"}
 end Validate_予約確認
 
