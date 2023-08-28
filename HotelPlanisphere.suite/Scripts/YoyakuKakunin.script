@@ -1,11 +1,15 @@
 ﻿to handle Validate_予約確認 
 	WaitFor 8.0, "宿泊予約確認"
 	WaitFor 8.0, "ThemeParkPgTiitle"
+<<<<<<< HEAD
 	
 	Set the SearchRectangle to ("Name_A","Name_B")
 	WaitFor 20, text:"MSYS 太郎様", language:"Japanese", validCharacters:"*", ignoreSpaces:"Yes"
 	set the SearchRectangle to empty
 	
+=======
+	共通.WaitScnTxt "MSYS 太郎"
+>>>>>>> faa6700f81f5a490621823ed5bddb9b09fc6271d
 	CaptureScreen {Name: "予約確認"}
 end Validate_予約確認
 
