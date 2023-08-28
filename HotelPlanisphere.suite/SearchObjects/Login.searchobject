@@ -1,39 +1,39 @@
 {
-  "lastmodifieddate" : 1690962389.654386,
-  "testlocationdata" : [
-    {
-      "capturerect" : [
-        270,
-        22,
-        92,
-        40
-      ],
-      "properties" : {
-        "Rotate" : 0,
-        "Scale" : "    1",
-        "SearchType" : "Precise to Pixel",
-        "Discrepancy" : "_0",
-        "Tolerance" : "_1",
-        "HotSpot" : "[46,20]",
-        "CropRectangle" : "[0,0,0,0]"
-      },
-      "name" : "Login.png",
-      "type" : 1
-    }
-  ],
-  "createddate" : 1690962389.6543851,
-  "lastfoundlocation" : [
-    1090,
-    282,
-    92,
-    40
-  ],
-  "originalcapturelocation" : [
-    270,
-    22,
-    92,
-    40
-  ],
-  "lastfounddate" : 1692942016.937886,
-  "name" : "Login"
+	"lastmodifieddate": 1690962389.654386,
+	"lastfoundlocation": [
+		1090,
+		282,
+		92,
+		40
+	],
+	"originalcapturelocation": [
+		270,
+		22,
+		92,
+		40
+	],
+	"createddate": 1690962389.6543851,
+	"lastfounddate": 1693188749.823,
+	"testlocationdata": [
+		{
+				"name": "Login.png",
+				"type": 1,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,20]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"capturerect": [
+					270,
+					22,
+					92,
+					40
+				]
+			}
+	],
+	"name": "Login"
 }
