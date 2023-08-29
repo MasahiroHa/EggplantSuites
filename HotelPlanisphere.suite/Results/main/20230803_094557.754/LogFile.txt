@@ -1,0 +1,8 @@
+﻿2023-08-03 09:45:57.763 +0900	START		Running main.script
+2023-08-03 09:45:58.342 +0900	doubleclick	ChromeIcon	at (54, 136)	8	on_openurl	OpenUrl.script
+2023-08-03 09:46:05.847 +0900	click	Url	at (220, 56)	9	on_openurl	OpenUrl.script
+2023-08-03 09:46:07.386 +0900	typetext		https://hotel.testplanisphere.dev[return]	10	on_openurl	OpenUrl.script
+2023-08-03 09:46:09.345 +0900	waitfor	HOTELPLANISPHERE_Logo.png	found at (968, 178)	11	on_openurl	OpenUrl.script
+2023-08-03 09:46:09.750 +0900	click	ToJpnTopPage	at (1075, 586)	12	on_openurl	OpenUrl.script
+2023-08-03 09:46:09.767 +0900	EndTestCase		(Duration:"11.99016", Errors:"0", Exceptions:"0", StartTime:"2023-08-03 09:45:57 +0900", Successes:"1", TestCase:"main.script", Warnings:"0")
+2023-08-03 09:46:09.833 +0900	SUCCESS		Execution Time 0:00:12 main.script

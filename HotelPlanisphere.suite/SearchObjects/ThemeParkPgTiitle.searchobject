@@ -1,0 +1,67 @@
+{
+  "lastmodifieddate" : 1693188303.902,
+  "ocrcapturestring" : "7",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        68,
+        269,
+        31
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[134,16]"
+      },
+      "capturedocrtext" : "7",
+      "name" : "ThemeParkPgTiitle\/ThemeParkPgTiitle.png",
+      "type" : 1
+    },
+    {
+      "name" : "ThemeParkPgTiitle\/ThemeParkPgTiitle2.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016Rdp1920x1200_1",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[134,16]"
+      },
+      "type" : 1,
+      "connectionserverid" : "server2016-0101",
+      "capturerect" : [
+        546,
+        344,
+        269,
+        31
+      ]
+    }
+  ],
+  "createddate" : 1691025441.3208489,
+  "lastfoundlocation" : [
+    546,
+    344,
+    269,
+    31
+  ],
+  "originalcapturelocation" : [
+    17,
+    68,
+    269,
+    31
+  ],
+  "lastfounddate" : 1693276961.457902,
+  "name" : "ThemeParkPgTiitle"
+}

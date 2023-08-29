@@ -1,0 +1,39 @@
+{
+  "lastmodifieddate" : 1691025443.702723,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        455,
+        111,
+        61,
+        21
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[-386,93]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "name" : "最長5泊.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025443.7027221,
+  "lastfoundlocation" : [
+    976,
+    297,
+    61,
+    21
+  ],
+  "originalcapturelocation" : [
+    455,
+    111,
+    61,
+    21
+  ],
+  "lastfounddate" : 1691025450.156292,
+  "name" : "最長5泊"
+}

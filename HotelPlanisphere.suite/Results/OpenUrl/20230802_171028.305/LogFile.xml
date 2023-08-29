@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenUrl_script" package="HotelPlanisphere.suite" timestamp="2023-08-02 17:10:28.305 +0900"
+ tests="1"  failures="0" errors="0" time="10.197986">
+  <properties>
+   <property name="RunDate" value="2023-08-02 17:10:28.305 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="OpenUrl.script" assertions="1" status="success"  time="10.178948">
+  </testcase>
+ </testsuite>
+</testsuites>

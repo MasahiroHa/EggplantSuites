@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-08-03 04:28:46 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 20;
+    HotSpotY = 13;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 546;
+    OriginalLocationY = 199;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "宿泊予約確認";
+    tags = ();
+}

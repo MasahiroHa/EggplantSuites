@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[20, 21, 91, 44], elementName:"Yoyaku", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Yoyaku", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[148, 21, 219, 43], elementName:"Touroku", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Touroku", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[270, 13, 362, 53], elementName:"Login", elementType:"Button", eventNum:-1, folderPath:"", imageName:"Login", itemEvent:"TurboListItemEvent_Element", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Precise to Pixel", skipStep:False, userModified:True, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>202307120952</integer>
+	<key>sessionType</key>
+	<string>autoscanSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

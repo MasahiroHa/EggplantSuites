@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-08-02 08:05:24 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 16;
+    HotSpotY = 15;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 77;
+    OriginalLocationY = 45;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "ReloadIcon";
+    tags = ();
+}

@@ -1,0 +1,64 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running main.script",
+      "timestamp" : "2023-08-03 15:03:54.038 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (54, 136)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 8,
+      "timestamp" : "2023-08-03 15:03:54.667 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 9,
+      "timestamp" : "2023-08-03 15:04:01.469 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-08-03 15:04:02.613 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 10
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 11,
+      "timestamp" : "2023-08-03 15:04:04.796 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 12,
+      "timestamp" : "2023-08-03 15:04:05.224 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"11.25982\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-08-03 15:03:54 +0900\", Successes:\"1\", TestCase:\"main.script\", Warnings:\"0\")",
+      "timestamp" : "2023-08-03 15:04:05.308 +0900"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:11 main.script",
+      "timestamp" : "2023-08-03 15:04:05.380 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-08-03 15:03:54.047 +0900"
+}

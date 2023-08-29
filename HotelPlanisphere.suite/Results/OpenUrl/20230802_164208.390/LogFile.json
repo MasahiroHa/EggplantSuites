@@ -1,0 +1,46 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running OpenUrl.script",
+      "timestamp" : "2023-08-02 16:42:08.401 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (52, 137)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 8,
+      "timestamp" : "2023-08-02 16:42:09.056 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 9,
+      "timestamp" : "2023-08-02 16:42:12.876 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanissphere.dev[return]",
+      "timestamp" : "2023-08-02 16:42:14.099 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 10
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"5.70931\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-08-02 16:42:08 +0900\", Successes:\"1\", TestCase:\"OpenUrl.script\", Warnings:\"0\")",
+      "timestamp" : "2023-08-02 16:42:14.115 +0900"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:05 OpenUrl.script",
+      "timestamp" : "2023-08-02 16:42:14.128 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-08-02 16:42:08.404 +0900"
+}

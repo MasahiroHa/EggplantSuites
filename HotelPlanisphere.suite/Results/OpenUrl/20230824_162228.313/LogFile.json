@@ -1,0 +1,80 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running OpenUrl.script",
+      "timestamp" : "2023-08-24 16:22:28.321 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (52, 137)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 8,
+      "timestamp" : "2023-08-24 16:22:28.868 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 9,
+      "timestamp" : "2023-08-24 16:22:34.149 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-08-24 16:22:35.323 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 10
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 11,
+      "timestamp" : "2023-08-24 16:22:36.454 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 12,
+      "timestamp" : "2023-08-24 16:22:36.691 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "Start movie",
+      "timestamp" : "2023-08-24 16:22:36.699 +0900",
+      "identifier" : "Log",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 14
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "\/Users\/hasebemasahiro\/EggplantSuites\/HotelPlanisphere.suite\/Results\/OpenUrl\/20230824_162228.313\/Hotelplan.mp4",
+      "timestamp" : "2023-08-24 16:22:38.455 +0900",
+      "identifier" : "startmovie",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 16
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"10.175481\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-08-24 16:22:28 +0900\", Successes:\"1\", TestCase:\"OpenUrl.script\", Warnings:\"0\")",
+      "timestamp" : "2023-08-24 16:22:38.506 +0900"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:10 OpenUrl.script",
+      "timestamp" : "2023-08-24 16:22:38.556 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-08-24 16:22:28.329 +0900"
+}
