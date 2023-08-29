@@ -1,0 +1,64 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running OpenUrl.script",
+      "timestamp" : "2023-08-02 17:10:28.321 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (52, 137)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 8,
+      "timestamp" : "2023-08-02 17:10:28.660 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 9,
+      "timestamp" : "2023-08-02 17:10:35.564 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-08-02 17:10:36.859 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 10
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 11,
+      "timestamp" : "2023-08-02 17:10:37.967 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 12,
+      "timestamp" : "2023-08-02 17:10:38.450 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"10.178948\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2023-08-02 17:10:28 +0900\", Successes:\"1\", TestCase:\"OpenUrl.script\", Warnings:\"0\")",
+      "timestamp" : "2023-08-02 17:10:38.504 +0900"
+    },
+    {
+      "identifier" : "SUCCESS",
+      "message" : "Execution Time 0:00:10 OpenUrl.script",
+      "timestamp" : "2023-08-02 17:10:38.580 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-08-02 17:10:28.324 +0900"
+}

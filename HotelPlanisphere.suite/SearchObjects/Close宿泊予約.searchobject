@@ -1,0 +1,75 @@
+{
+  "lastmodifieddate" : 1691038402.16026,
+  "ocrcapturestring" : "0",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "Server2016-0101",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "0",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[213,8]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Close宿泊予約.png",
+      "capturerect" : [
+        258,
+        10,
+        97,
+        15
+      ]
+    },
+    {
+      "connectionserverid" : "Server2016-0101",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "0",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Adaptive to Image",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_30",
+        "HotSpot" : "[213,8]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "Close宿泊予約.png",
+      "capturerect" : [
+        258,
+        10,
+        97,
+        15
+      ]
+    }
+  ],
+  "createddate" : 1691037642.9138021,
+  "lastfoundlocation" : [
+    258,
+    10,
+    97,
+    15
+  ],
+  "originalcapturelocation" : [
+    258,
+    10,
+    97,
+    15
+  ],
+  "lastfounddate" : 1691037643.0570688,
+  "name" : "Close宿泊予約"
+}

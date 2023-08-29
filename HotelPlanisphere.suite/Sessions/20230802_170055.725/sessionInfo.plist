@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveConstant</key>
+	<integer>7</integer>
+	<key>commandList</key>
+	<string>[{captureRect:[76, 1135, 98, 1157], elementName:"ReloadIcon", eventNum:2, folderPath:"", hotSpot:[413, 62], imageName:"ReloadIcon", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0002.png", searchType:"Tolerant of Background", skipStep:True, userModified:True, usingTempImageName:False, waitForTime:-1}, {captureRect:[1875.453205, 332.701098, 1920, 362.701098], elementName:"image0001", eventNum:4, folderPath:"", hotSpot:[1910.453205, 852.298902], imageName:"image0001", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0004.png", searchType:"Precise to Pixel", skipStep:True, userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:6, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_TypeText", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_TypeText", screenShotFile:"Screen0006.png", skipStep:False, text:"DownArrow,DownArrow,DownArrow,DownArrow,DownArrow", userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[0, 0, 0, 0], elementName:"UNKNOWN", eventNum:15, folderPath:"", imageName:"", itemEvent:"TurboListItemEvent_TypeText", itemMode:"TurboListItemMode_New", itemType:"TurboListItemType_TypeText", screenShotFile:"Screen0006.png", skipStep:False, text:"UpArrow,UpArrow,UpArrow,UpArrow,UpArrow", userModified:False, usingTempImageName:True, waitForTime:-1}, {captureRect:[1890, 1178, 1906, 1194], elementName:"image0002", eventNum:26, folderPath:"", hotSpot:[1897.554342, 17.87806], imageName:"image0002", itemEvent:"TurboListItemEvent_Click", itemMode:"TurboListItemMode_Existing", itemType:"TurboListItemType_Image", screenShotFile:"Screen0026.png", searchType:"Tolerant of Background", skipStep:False, userModified:False, usingTempImageName:False, waitForTime:-1}]</string>
+	<key>dilations</key>
+	<integer>3</integer>
+	<key>maxSize</key>
+	<integer>300</integer>
+	<key>minSize</key>
+	<integer>16</integer>
+	<key>savedWithEpfVersion</key>
+	<integer>202307120952</integer>
+	<key>sessionType</key>
+	<string>turboSession</string>
+	<key>sessionUsesDOMObjects</key>
+	<false/>
+</dict>
+</plist>

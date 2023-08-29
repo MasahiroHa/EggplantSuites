@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="main_script" package="HotelPlanisphere.suite" timestamp="2023-08-03 10:20:43.658 +0900"
+ tests="1"  failures="0" errors="0" time="8.473515">
+  <properties>
+   <property name="RunDate" value="2023-08-03 10:20:43.658 +0900"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="main.script" assertions="1" status="success"  time="8.45695">
+  </testcase>
+ </testsuite>
+</testsuites>

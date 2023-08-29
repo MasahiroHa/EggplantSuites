@@ -1,0 +1,39 @@
+{
+	"lastmodifieddate": 1691025447.374753,
+	"lastfoundlocation": [
+		558,
+		729,
+		132,
+		22
+	],
+	"originalcapturelocation": [
+		37,
+		543,
+		132,
+		22
+	],
+	"createddate": 1691025447.374752,
+	"lastfounddate": 1693185677.7280002,
+	"testlocationdata": [
+		{
+				"name": "お得な観光プラン.png",
+				"type": 1,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[-12,12]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"capturerect": [
+					37,
+					543,
+					132,
+					22
+				]
+			}
+	],
+	"name": "お得な観光プラン"
+}

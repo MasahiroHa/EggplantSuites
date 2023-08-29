@@ -1,0 +1,48 @@
+{
+  "lastmodifieddate" : 1691030738.436579,
+  "ocrcapturestring" : "AS",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "Server2016-0101",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "AS",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[478,44]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "name" : "人数設定.png",
+      "capturerect" : [
+        539,
+        534,
+        72,
+        20
+      ]
+    }
+  ],
+  "createddate" : 1691030738.436578,
+  "lastfoundlocation" : [
+    539,
+    534,
+    72,
+    20
+  ],
+  "originalcapturelocation" : [
+    539,
+    534,
+    72,
+    20
+  ],
+  "lastfounddate" : 1691030912.7397208,
+  "name" : "人数設定"
+}
