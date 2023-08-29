@@ -1,0 +1,3 @@
+﻿2023-08-03 13:11:08.251 +0900	START		Running main.script
+2023-08-03 13:11:20.451 +0900	EndTestCase		(Duration:"12.196125", Errors:"1", Exceptions:"0", StartTime:"2023-08-03 13:11:08 +0900", Successes:"0", TestCase:"main.script", Warnings:"0")
+2023-08-03 13:11:20.461 +0900	ABORTED		Execution Time 0:00:12 main.script

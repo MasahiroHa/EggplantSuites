@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		640,
+		146,
+		656,
+		64
+	],
+	"lastmodifieddate": 1690962221.5764241,
+	"createddate": 1690962221.5764232,
+	"name": "HOTELPLANISPHERE_Logo",
+	"lastfounddate": 1693284617.1210001,
+	"ocrcapturestring": "HOTEL PLANISPHERE",
+	"lastfoundlocation": [
+		640,
+		146,
+		656,
+		64
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[328,32]",
+					"Tolerance": "_64",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "HOTELPLANISPHERE_Logo.png",
+				"connectionname": "Server2016-0101_1920_1200",
+				"type": 1,
+				"connectionserverid": "Server2016-0101",
+				"capturerect": [
+					640,
+					146,
+					656,
+					64
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "HOTEL PLANISPHERE"
+			}
+	]
+}

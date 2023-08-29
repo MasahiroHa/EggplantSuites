@@ -1,0 +1,32 @@
+﻿to handle Validate_予約確認 
+	WaitFor 8.0, "宿泊予約確認"
+	WaitFor 8.0, "ThemeParkPgTiitle"
+	
+	(*
+         put "2023-08-30" into global gsKikanFr
+	put "2023-09-02" into global gsKikanTo
+	put "3" into global gsSelDays
+*)
+	
+	
+	put formattedTime("[year]年[m]月[d]日 〜 ",global gsKikan.sFrom) into sKikan
+	put formattedTime("[year]年[m]月[d]日 ",global gsKikan.sTo) after sKikan
+	put global gsKikan.iSelDays & "泊" after sKikan
+	
+	Set the SearchRectangle to ["予約画面確認_A","予約画面確認_B"]
+	WaitFor 20, text:sKikan, language:"Japanese, English", validCharacters:"*", ignoreSpaces:"Yes"
+	
+	WaitFor 20, text:"MSYS 太郎様", language:"Japanese, English", validCharacters:"*", ignoreSpaces:"Yes"
+	set the SearchRectangle to empty
+	
+	CaptureScreen {Name: "予約確認"}
+end Validate_予約確認
+
+to handle 予約する
+	Click (Image:"この内容で予約する", WaitFor:20)
+	WaitFor 8.0, "予約を完了しました"
+	CaptureScreen {Name: "予約確認"}
+	Click (Image:"Popup閉じる", WaitFor:10)
+	
+	
+end 予約する

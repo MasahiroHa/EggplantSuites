@@ -1,0 +1,20 @@
+﻿{
+    CaptureDate = "2023-08-02 07:43:31 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 328;
+    HotSpotY = 32;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 640;
+    OriginalLocationY = 146;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchAlgorithm = "TextSmoothSquare";
+    SearchObjectName = "HOTELPLANISPHERE_Logo";
+    tags = ();
+}

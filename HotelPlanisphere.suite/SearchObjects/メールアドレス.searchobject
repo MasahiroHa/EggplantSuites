@@ -1,0 +1,46 @@
+{
+	"lastmodifieddate": 1691039844.5429821,
+	"lastfoundlocation": [
+		538,
+		943,
+		117,
+		20
+	],
+	"originalcapturelocation": [
+		538,
+		943,
+		117,
+		20
+	],
+	"createddate": 1691039844.5429821,
+	"lastfounddate": 1693284409.9889998,
+	"testlocationdata": [
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[75,50]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "メールアドレス.png",
+				"connectionname": "Server2016-0101_1920_1200",
+				"type": 1,
+				"capturerect": [
+					538,
+					943,
+					117,
+					20
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "Server2016-0101"
+			}
+	],
+	"name": "メールアドレス"
+}

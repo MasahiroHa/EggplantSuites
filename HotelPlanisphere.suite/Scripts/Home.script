@@ -1,0 +1,37 @@
+﻿(*** Autosnippet script "Home" generated 2023-08-02 by 長谷部雅洋. Keep this comment for use with Eggplant AI. ***)
+(* Already generated snippets can be edited in the script below *)
+(* To customize the snippet generation templates, affecting snippets generated in the future,
+go to Eggplant > Preferences... > Script > General > Customize *)
+
+
+(* Autosnippets for Button "Yoyaku" *)
+
+to handle Yoyaku_Click
+	Click imageName:"Yoyaku", waitFor:8
+	WaitFor 10, "ReloadIcon"
+	Yoyaku.YoyakuInit
+end Yoyaku_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Touroku" *)
+
+to handle Touroku_Click
+	Click imageName:"Touroku", waitFor:8
+end Touroku_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "Login" *)
+
+to handle Login_Click
+	Click imageName:"Login", waitFor:8
+end Login_Click
+
+-----------------------------------
+
+
+(*** End of Autosnippet script Home.script ***)
+

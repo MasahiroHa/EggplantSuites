@@ -1,0 +1,41 @@
+{
+  "lastmodifieddate" : 1690963208.8567882,
+  "ocrcapturestring" : "^BPEO",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        471,
+        373,
+        67,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[33,11]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "capturedocrtext" : "^BPEO",
+      "name" : "Honjitsu.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963208.856787,
+  "lastfoundlocation" : [
+    918,
+    501,
+    67,
+    22
+  ],
+  "originalcapturelocation" : [
+    471,
+    373,
+    67,
+    22
+  ],
+  "lastfounddate" : 1690963212.791523,
+  "name" : "Honjitsu"
+}

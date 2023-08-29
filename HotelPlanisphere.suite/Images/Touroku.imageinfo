@@ -1,0 +1,21 @@
+﻿{
+    CaptureDate = "2023-08-02 07:46:28 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        "384",
+        "75");
+    HasAlpha = 1;
+    HotSpotX = 35;
+    HotSpotY = 11;
+    ImageDescription = <>;
+    ImageTolerance = 100;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 148;
+    OriginalLocationY = 32;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Touroku";
+    WaitFor = nil;
+}

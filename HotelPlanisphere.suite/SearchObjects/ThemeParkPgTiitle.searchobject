@@ -1,0 +1,67 @@
+{
+	"originalcapturelocation": [
+		17,
+		68,
+		269,
+		31
+	],
+	"lastmodifieddate": 1693188303.902,
+	"createddate": 1691025441.3208489,
+	"name": "ThemeParkPgTiitle",
+	"lastfounddate": 1693284685.118,
+	"ocrcapturestring": "7",
+	"lastfoundlocation": [
+		546,
+		344,
+		269,
+		31
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "7",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[134,16]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					17,
+					68,
+					269,
+					31
+				],
+				"name": "ThemeParkPgTiitle/ThemeParkPgTiitle.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[134,16]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ThemeParkPgTiitle/ThemeParkPgTiitle2.png",
+				"connectionname": "Server2016Rdp1920x1200_1",
+				"type": 1,
+				"capturerect": [
+					546,
+					344,
+					269,
+					31
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "server2016-0101"
+			}
+	]
+}

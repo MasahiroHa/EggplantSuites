@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-08-03 05:20:20 +0000";
+    CaptureHost = "Server2016-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 33;
+    HotSpotY = 48;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 538;
+    OriginalLocationY = 943;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "電話番号";
+    tags = ();
+}

@@ -1,0 +1,94 @@
+{
+	"originalcapturelocation": [
+		1890,
+		6,
+		16,
+		16
+	],
+	"lastmodifieddate": 1693277541.7719998,
+	"createddate": 1690963342.175786,
+	"name": "image0002",
+	"lastfounddate": 1693284702.395,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		1890,
+		6,
+		16,
+		16
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "X",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[7,11]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					1890,
+					6,
+					16,
+					16
+				],
+				"name": "Close/Close.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[7,11]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Close/Close2.png",
+				"connectionname": "Server2016Rdp1920x1200_1",
+				"type": 1,
+				"connectionserverid": "server2016-0101",
+				"capturerect": [
+					79,
+					47,
+					16,
+					16
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "X"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[3,5]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Close/Close4.png",
+				"connectionname": "Server2016Rdp1920x1200_1",
+				"type": 1,
+				"capturerect": [
+					908,
+					571,
+					8,
+					8
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "server2016-0101"
+			}
+	]
+}
