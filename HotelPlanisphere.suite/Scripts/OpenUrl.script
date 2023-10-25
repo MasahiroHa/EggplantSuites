@@ -9,10 +9,10 @@ set the imageupdate to "Auto"
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
 
 DoubleClick {Image:"ChromeIcon", WaitFor:20}
-Click (Image:"Url", WaitFor:20)
+Click {Image:"Url", WaitFor:30}
 TypeText "https://hotel.testplanisphere.dev",Return
-WaitFor 20, "HOTELPLANISPHERE_Logo.png"
-Click (Image:"ToJpnTopPage", WaitFor:20)
+WaitFor 30, "HOTELPLANISPHERE_Logo.png"
+Click {Image:"ToJpnTopPage", WaitFor:30}
 
 put {sFrom:"", sTo:"", iSelDays:0} into global gsKikan
 

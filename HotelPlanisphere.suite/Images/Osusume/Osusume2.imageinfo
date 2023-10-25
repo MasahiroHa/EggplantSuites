@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2023-10-04 01:00:24 +0000";
+    CaptureHost = "Server2019Rdp1920x1200_1";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 79;
+    HotSpotY = 12;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 873;
+    OriginalLocationY = 327;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Osusume";
+}

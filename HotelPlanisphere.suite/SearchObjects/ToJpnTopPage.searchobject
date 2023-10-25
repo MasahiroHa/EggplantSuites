@@ -1,46 +1,72 @@
 {
-	"lastmodifieddate": 1690962290.657268,
-	"lastfoundlocation": [
-		996,
-		561,
-		138,
-		38
-	],
-	"originalcapturelocation": [
-		996,
-		561,
-		138,
-		38
-	],
-	"createddate": 1690962290.657268,
-	"lastfounddate": 1693284617.21,
-	"testlocationdata": [
-		{
-				"connectionportnum": 3389,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[79,25]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"sutinfo": {
-					"type": "Unknown RDP"
-				},
-				"name": "ToJpnTopPage.png",
-				"connectionname": "Server2016-0101_1920_1200",
-				"type": 1,
-				"capturerect": [
-					996,
-					561,
-					138,
-					38
-				],
-				"connectiontype": "RDP",
-				"connectionserverid": "Server2016-0101"
-			}
-	],
-	"name": "ToJpnTopPage"
+  "lastmodifieddate" : 1693883000.9036479,
+  "testlocationdata" : [
+    {
+      "name" : "ToJpnTopPage\/ToJpnTopPage.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[79,25]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        996,
+        561,
+        138,
+        38
+      ]
+    },
+    {
+      "name" : "ToJpnTopPage\/ToJpnTopPage2.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016Rdp1920x1200_1",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "HotSpot" : "[79,25]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "192.168.56.101",
+      "capturerect" : [
+        747,
+        570,
+        138,
+        38
+      ]
+    }
+  ],
+  "createddate" : 1690962290.657268,
+  "lastfoundlocation" : [
+    996,
+    561,
+    138,
+    38
+  ],
+  "originalcapturelocation" : [
+    996,
+    561,
+    138,
+    38
+  ],
+  "lastfounddate" : 1698134516.173717,
+  "name" : "ToJpnTopPage"
 }
