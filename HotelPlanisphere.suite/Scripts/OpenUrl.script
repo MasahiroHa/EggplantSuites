@@ -10,6 +10,13 @@ set the imageupdate to "Auto"
 
 DoubleClick {Image:"ChromeIcon", WaitFor:20}
 Click {Image:"Url", WaitFor:30}
+
+
+TypeText AltKey,space
+TypeText x
+
+wait 1
+
 TypeText "https://hotel.testplanisphere.dev",Return
 WaitFor 30, "HOTELPLANISPHERE_Logo.png"
 Click {Image:"ToJpnTopPage", WaitFor:30}
