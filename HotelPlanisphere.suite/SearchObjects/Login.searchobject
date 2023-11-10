@@ -1,5 +1,5 @@
 {
-  "lastmodifieddate" : 1690962389.654386,
+  "lastmodifieddate" : 1698640193.4459729,
   "testlocationdata" : [
     {
       "capturerect" : [
@@ -17,8 +17,33 @@
         "CropRectangle" : "[0,0,0,0]",
         "HotSpot" : "[46,20]"
       },
-      "name" : "Login.png",
+      "name" : "Login\/Login.png",
       "type" : 1
+    },
+    {
+      "name" : "Login\/Login2.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Server2019-0101",
+      "connectionportnum" : 5900,
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "HotSpot" : "[46,20]",
+        "CropRectangle" : "[0,0,0,0]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2019-0101",
+      "capturerect" : [
+        1090,
+        282,
+        92,
+        40
+      ]
     }
   ],
   "createddate" : 1690962389.6543851,
@@ -34,6 +59,6 @@
     92,
     40
   ],
-  "lastfounddate" : 1698134517.505796,
+  "lastfounddate" : 1698640194.170922,
   "name" : "Login"
 }

@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-11-10 05:21:47 +0000";
+    CaptureHost = "Server2019-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 21;
+    HotSpotY = 15;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 28;
+    OriginalLocationY = 118;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "ChromeIcon/ChromeIcon231110-02";
+    tags = ();
+}
