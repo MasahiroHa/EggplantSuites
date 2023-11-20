@@ -1,3 +1,5 @@
-﻿Click imageName:"Close", waitFor:10
+﻿//Click imageName:"Close", waitFor:10
+
+TypeText ControlDown,F4,ControlUp
 
 StopMovie

@@ -1,0 +1,36 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running Close.script",
+      "timestamp" : "2023-11-20 17:00:55.672 +0900"
+    },
+    {
+      "handlerName" : "on_close",
+      "message" : "at (1069, 911)",
+      "identifier" : "click",
+      "image" : "Close",
+      "handlerLine" : 1,
+      "timestamp" : "2023-11-20 17:00:56.251 +0900",
+      "scriptName" : "Close.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"0.590219\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-11-20 17:00:55 +0900\", Successes:\"0\", TestCase:\"Close.script\", Warnings:\"0\")",
+      "timestamp" : "2023-11-20 17:00:56.268 +0900"
+    },
+    {
+      "message" : "CapturedErrorScreenshot",
+      "timestamp" : "2023-11-20 17:00:56.561 +0900",
+      "identifier" : "Error Screen",
+      "image" : "\/Users\/hasebemasahiro\/EggplantSuites\/HotelPlanisphere.suite\/Results\/Close\/20231120_170055.658\/Screen_Error.png"
+    },
+    {
+      "message" : "MovieError: StopMovie is not allowed -- there is no movie being recorded -- Execution Time 0:00:00 Close.script",
+      "timestamp" : "2023-11-20 17:00:56.564 +0900",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2023-11-20 17:00:55.677 +0900"
+}

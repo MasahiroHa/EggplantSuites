@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Close">
+ <run>
+  <RunDate>2023-11-20 17:00:36.479 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.733513</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20231120_170036.479/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StopMovie is not allowed -- there is no movie being recorded</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2023-11-20 17:00:55.658 +0900</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.610128</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20231120_170055.658/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>MovieError -- StopMovie is not allowed -- there is no movie being recorded</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,5 @@
+﻿2023-11-20 17:00:36.495 +0900	START		Running Close.script
+2023-11-20 17:00:37.200 +0900	click	Close	at (1069, 911)	1	on_close	Close.script
+2023-11-20 17:00:37.213 +0900	EndTestCase		(Duration:"0.70744", Errors:"1", Exceptions:"0", StartTime:"2023-11-20 17:00:36 +0900", Successes:"0", TestCase:"Close.script", Warnings:"0")
+2023-11-20 17:00:37.491 +0900	Error Screen	/Users/hasebemasahiro/EggplantSuites/HotelPlanisphere.suite/Results/Close/20231120_170036.479/Screen_Error.png	CapturedErrorScreenshot	188D37A8-054E-4C52-B21A-39CE39F8A3E4
+2023-11-20 17:00:37.494 +0900	FAILURE	Screen_Error.png	MovieError: StopMovie is not allowed -- there is no movie being recorded -- Execution Time 0:00:00 Close.script

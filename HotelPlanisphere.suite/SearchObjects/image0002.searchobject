@@ -130,10 +130,10 @@
   ],
   "createddate" : 1690963342.175786,
   "lastfoundlocation" : [
-    1904,
-    238,
-    8,
-    8
+    1062,
+    900,
+    16,
+    16
   ],
   "originalcapturelocation" : [
     1890,
@@ -141,6 +141,6 @@
     16,
     16
   ],
-  "lastfounddate" : 1700457634.122313,
+  "lastfounddate" : 1700467261.120703,
   "name" : "image0002"
 }
