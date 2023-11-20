@@ -1,0 +1,9 @@
+﻿2023-11-20 13:55:47.072 +0900	START		Running main.script
+2023-11-20 13:55:52.518 +0900	set		IMAGEUPDATE = Auto	2	on_openurl	OpenUrl.script
+2023-11-20 13:55:52.858 +0900	doubleclick	ChromeIcon	at (49, 133)	11	on_openurl	OpenUrl.script
+2023-11-20 13:55:59.544 +0900	click	Url	at (220, 56)	12	on_openurl	OpenUrl.script
+2023-11-20 13:56:00.270 +0900	typetext		[windowsAltKey] 	15	on_openurl	OpenUrl.script
+2023-11-20 13:56:00.985 +0900	typetext		x	16	on_openurl	OpenUrl.script
+2023-11-20 13:56:02.503 +0900	typetext		https://hotel.testplanisphere.dev[return]	20	on_openurl	OpenUrl.script
+2023-11-20 13:56:21.698 +0900	EndTestCase		(Duration:"34.612233", Errors:"1", Exceptions:"0", StartTime:"2023-11-20 13:55:47 +0900", Successes:"0", TestCase:"main.script", Warnings:"0")
+2023-11-20 13:56:21.703 +0900	ABORTED		Execution Time 0:00:34 main.script

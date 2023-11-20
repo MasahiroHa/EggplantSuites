@@ -13,6 +13,7 @@ Click {Image:"Url", WaitFor:30}
 
 
 TypeText AltKey,space
+wait 1
 TypeText x
 
 wait 1

@@ -1,0 +1,23 @@
+﻿2023-11-20 13:59:49.943 +0900	START		Running main.script
+2023-11-20 13:59:50.155 +0900	set		IMAGEUPDATE = Auto	2	on_openurl	OpenUrl.script
+2023-11-20 13:59:50.707 +0900	doubleclick	ChromeIcon	at (49, 133)	11	on_openurl	OpenUrl.script
+2023-11-20 13:59:55.524 +0900	click	Url	at (220, 56)	12	on_openurl	OpenUrl.script
+2023-11-20 13:59:56.249 +0900	typetext		[windowsAltKey] 	15	on_openurl	OpenUrl.script
+2023-11-20 13:59:57.272 +0900	typetext		x	17	on_openurl	OpenUrl.script
+2023-11-20 13:59:58.820 +0900	typetext		https://hotel.testplanisphere.dev[return]	21	on_openurl	OpenUrl.script
+2023-11-20 14:00:00.805 +0900	waitfor	HOTELPLANISPHERE_Logo.png	found at (968, 178)	22	on_openurl	OpenUrl.script
+2023-11-20 14:00:01.057 +0900	click	ToJpnTopPage	at (1075, 586)	23	on_openurl	OpenUrl.script
+2023-11-20 14:00:01.069 +0900	Log		Start movie	27	on_openurl	OpenUrl.script
+2023-11-20 14:00:01.326 +0900	startmovie		/Users/hasebemasahiro/EggplantSuites/HotelPlanisphere.suite/Results/main/20231120_135949.931/Hotelplan.mp4	29	on_openurl	OpenUrl.script
+2023-11-20 14:00:01.967 +0900	click	Login	at (1136, 302)	2	on_login_click	Home.script
+2023-11-20 14:00:03.208 +0900	click	Yoyaku	at (883, 302)	2	on_yoyaku_click	Home.script
+2023-11-20 14:00:03.234 +0900	waitfor	ReloadIcon	found at (93, 60)	3	on_yoyaku_click	Home.script
+2023-11-20 14:00:03.973 +0900	typetext		[downArrow][downArrow][downArrow][downArrow][downArrow]	2	on_yoyakuinit	Yoyaku.script
+2023-11-20 14:00:04.514 +0900	waitfor	SyukuhakuListLogo	found at (652, 230)	3	on_syukuhakulistlogo_validate	Yoyaku.script
+2023-11-20 14:00:10.079 +0900	click	ThemePark	at (1341, 1048)	2	on_themepark_click	Yoyaku.script
+2023-11-20 14:00:15.586 +0900	waitfor	ReloadIcon	found at (93, 60)	2	on_waitscntxt	共通.script
+2023-11-20 14:00:17.122 +0900	set		SEARCHRECTANGLE = ["予約画面確認_A","予約画面確認_B"]	4	on_waitscntxt	共通.script
+2023-11-20 14:00:46.692 +0900	LogWarning		Unable to Find Text: 宿泊予約 -- AutoUpdate engaged	6	on_waitscntxt	共通.script
+2023-11-20 14:00:49.838 +0900	Exception	(TEXT:"宿泊予約")	Unable To Find Any Image On Screen "(TEXT:"宿泊予約")" within 20.00 seconds. Text not found.	6	on_waitscntxt	共通.script
+2023-11-20 14:00:49.942 +0900	EndTestCase		(Duration:"59.99596", Errors:"1", Exceptions:"1", StartTime:"2023-11-20 13:59:49 +0900", Successes:"0", TestCase:"main.script", Warnings:"1")
+2023-11-20 14:00:50.159 +0900	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"宿泊予約")" within 20.00 seconds. Text not found.  Restricted Search Rectangle ((439,185),(1437,1088))\n -- Execution Time 0:01:00 main.script

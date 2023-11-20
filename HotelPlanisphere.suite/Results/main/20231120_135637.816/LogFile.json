@@ -1,0 +1,173 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running main.script",
+      "timestamp" : "2023-11-20 13:56:37.828 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "IMAGEUPDATE = Auto",
+      "timestamp" : "2023-11-20 13:56:40.822 +0900",
+      "identifier" : "set",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (49, 133)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 11,
+      "timestamp" : "2023-11-20 13:56:41.906 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 12,
+      "timestamp" : "2023-11-20 13:56:45.567 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2023-11-20 13:56:49.489 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "x",
+      "timestamp" : "2023-11-20 13:57:11.934 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 16
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-11-20 13:57:21.098 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 20
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 21,
+      "timestamp" : "2023-11-20 13:58:12.520 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 22,
+      "timestamp" : "2023-11-20 13:58:14.380 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "Start movie",
+      "timestamp" : "2023-11-20 13:58:15.918 +0900",
+      "identifier" : "Log",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 26
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "\/Users\/hasebemasahiro\/EggplantSuites\/HotelPlanisphere.suite\/Results\/main\/20231120_135637.816\/Hotelplan.mp4",
+      "timestamp" : "2023-11-20 13:58:17.349 +0900",
+      "identifier" : "startmovie",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 28
+    },
+    {
+      "handlerName" : "on_login_click",
+      "message" : "at (1136, 302)",
+      "identifier" : "click",
+      "image" : "Login",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 13:58:24.276 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyaku_click",
+      "message" : "at (883, 302)",
+      "identifier" : "click",
+      "image" : "Yoyaku",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 13:58:28.060 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyaku_click",
+      "message" : "found at (93, 60)",
+      "identifier" : "waitfor",
+      "image" : "ReloadIcon",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-20 13:58:29.398 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyakuinit",
+      "message" : "[downArrow][downArrow][downArrow][downArrow][downArrow]",
+      "timestamp" : "2023-11-20 13:58:30.911 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "Yoyaku.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syukuhakulistlogo_validate",
+      "message" : "found at (652, 230)",
+      "identifier" : "waitfor",
+      "image" : "SyukuhakuListLogo",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-20 13:58:36.460 +0900",
+      "scriptName" : "Yoyaku.script"
+    },
+    {
+      "handlerLine" : 3,
+      "handlerName" : "on_close",
+      "timestamp" : "2023-11-20 13:58:45.668 +0900",
+      "identifier" : "capturescreen",
+      "image" : "BeforeClose.png",
+      "scriptName" : "Yoyaku.script"
+    },
+    {
+      "handlerName" : "on_close",
+      "message" : "Unable to Find Image(s): Close宿泊予約.png -- AutoUpdate engaged",
+      "timestamp" : "2023-11-20 13:58:56.586 +0900",
+      "identifier" : "LogWarning",
+      "scriptName" : "Yoyaku.script",
+      "handlerLine" : 5
+    },
+    {
+      "handlerName" : "on_close",
+      "message" : "No Image Found On Screen: \"Close宿泊予約\"",
+      "identifier" : "Exception",
+      "image" : "Close宿泊予約",
+      "handlerLine" : 5,
+      "timestamp" : "2023-11-20 13:58:58.653 +0900",
+      "scriptName" : "Yoyaku.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"140.869059\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-11-20 13:56:37 +0900\", Successes:\"0\", TestCase:\"main.script\", Warnings:\"1\")",
+      "timestamp" : "2023-11-20 13:58:58.700 +0900"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:02:20 main.script",
+      "timestamp" : "2023-11-20 13:58:58.705 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-11-20 13:56:37.830 +0900"
+}

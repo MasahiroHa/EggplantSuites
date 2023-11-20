@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="main_script" package="HotelPlanisphere.suite" timestamp="2023-11-20 11:56:08.020 +0900"
+ tests="1"  failures="0" errors="0" time="101.271221">
+  <properties>
+   <property name="RunDate" value="2023-11-20 11:56:08.020 +0900"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="main.script" assertions="1" status="error"  time="101.246431">
+    <error type="Exception" message="No Image Found On Screen: &quot;Close宿泊予約&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

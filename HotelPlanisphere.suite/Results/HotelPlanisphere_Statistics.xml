@@ -17,11 +17,11 @@
   <TotalTimeOnSuccess>33.521322</TotalTimeOnSuccess>
  </script>
  <script name="main">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>5</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
   <FirstRun>2023-08-03 09:45:57 +0900</FirstRun>
-  <LastRun>2023-08-03 15:03:54 +0900</LastRun>
+  <LastRun>2023-11-20 13:59:49 +0900</LastRun>
   <TotalTimeOnSuccess>47.932901</TotalTimeOnSuccess>
  </script>
 </statistics>

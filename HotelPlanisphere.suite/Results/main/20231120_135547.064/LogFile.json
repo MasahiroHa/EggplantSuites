@@ -1,0 +1,70 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running main.script",
+      "timestamp" : "2023-11-20 13:55:47.072 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "IMAGEUPDATE = Auto",
+      "timestamp" : "2023-11-20 13:55:52.518 +0900",
+      "identifier" : "set",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (49, 133)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 11,
+      "timestamp" : "2023-11-20 13:55:52.858 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 12,
+      "timestamp" : "2023-11-20 13:55:59.544 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2023-11-20 13:56:00.270 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "x",
+      "timestamp" : "2023-11-20 13:56:00.985 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 16
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-11-20 13:56:02.503 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 20
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"34.612233\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2023-11-20 13:55:47 +0900\", Successes:\"0\", TestCase:\"main.script\", Warnings:\"0\")",
+      "timestamp" : "2023-11-20 13:56:21.698 +0900"
+    },
+    {
+      "identifier" : "ABORTED",
+      "message" : "Execution Time 0:00:34 main.script",
+      "timestamp" : "2023-11-20 13:56:21.703 +0900"
+    }
+  ],
+  "createdTimestamp" : "2023-11-20 13:55:47.084 +0900"
+}

@@ -1,0 +1,21 @@
+﻿2023-11-20 13:56:37.828 +0900	START		Running main.script
+2023-11-20 13:56:40.822 +0900	set		IMAGEUPDATE = Auto	2	on_openurl	OpenUrl.script
+2023-11-20 13:56:41.906 +0900	doubleclick	ChromeIcon	at (49, 133)	11	on_openurl	OpenUrl.script
+2023-11-20 13:56:45.567 +0900	click	Url	at (220, 56)	12	on_openurl	OpenUrl.script
+2023-11-20 13:56:49.489 +0900	typetext		[windowsAltKey] 	15	on_openurl	OpenUrl.script
+2023-11-20 13:57:11.934 +0900	typetext		x	16	on_openurl	OpenUrl.script
+2023-11-20 13:57:21.098 +0900	typetext		https://hotel.testplanisphere.dev[return]	20	on_openurl	OpenUrl.script
+2023-11-20 13:58:12.520 +0900	waitfor	HOTELPLANISPHERE_Logo.png	found at (968, 178)	21	on_openurl	OpenUrl.script
+2023-11-20 13:58:14.380 +0900	click	ToJpnTopPage	at (1075, 586)	22	on_openurl	OpenUrl.script
+2023-11-20 13:58:15.918 +0900	Log		Start movie	26	on_openurl	OpenUrl.script
+2023-11-20 13:58:17.349 +0900	startmovie		/Users/hasebemasahiro/EggplantSuites/HotelPlanisphere.suite/Results/main/20231120_135637.816/Hotelplan.mp4	28	on_openurl	OpenUrl.script
+2023-11-20 13:58:24.276 +0900	click	Login	at (1136, 302)	2	on_login_click	Home.script
+2023-11-20 13:58:28.060 +0900	click	Yoyaku	at (883, 302)	2	on_yoyaku_click	Home.script
+2023-11-20 13:58:29.398 +0900	waitfor	ReloadIcon	found at (93, 60)	3	on_yoyaku_click	Home.script
+2023-11-20 13:58:30.911 +0900	typetext		[downArrow][downArrow][downArrow][downArrow][downArrow]	2	on_yoyakuinit	Yoyaku.script
+2023-11-20 13:58:36.460 +0900	waitfor	SyukuhakuListLogo	found at (652, 230)	3	on_syukuhakulistlogo_validate	Yoyaku.script
+2023-11-20 13:58:45.668 +0900	capturescreen	BeforeClose.png		3	on_close	Yoyaku.script
+2023-11-20 13:58:56.586 +0900	LogWarning		Unable to Find Image(s): Close宿泊予約.png -- AutoUpdate engaged	5	on_close	Yoyaku.script
+2023-11-20 13:58:58.653 +0900	Exception	Close宿泊予約	No Image Found On Screen: "Close宿泊予約"	5	on_close	Yoyaku.script
+2023-11-20 13:58:58.700 +0900	EndTestCase		(Duration:"140.869059", Errors:"1", Exceptions:"1", StartTime:"2023-11-20 13:56:37 +0900", Successes:"0", TestCase:"main.script", Warnings:"1")
+2023-11-20 13:58:58.705 +0900	ABORTED		Execution Time 0:02:20 main.script

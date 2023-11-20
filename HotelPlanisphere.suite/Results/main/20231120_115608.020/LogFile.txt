@@ -1,0 +1,21 @@
+﻿2023-11-20 11:56:08.029 +0900	START		Running main.script
+2023-11-20 11:56:11.120 +0900	set		IMAGEUPDATE = Auto	2	on_openurl	OpenUrl.script
+2023-11-20 11:56:11.840 +0900	doubleclick	ChromeIcon	at (49, 133)	11	on_openurl	OpenUrl.script
+2023-11-20 11:56:13.641 +0900	click	Url	at (441, 75)	12	on_openurl	OpenUrl.script
+2023-11-20 11:56:14.368 +0900	typetext		[windowsAltKey] 	15	on_openurl	OpenUrl.script
+2023-11-20 11:56:15.855 +0900	typetext		x	16	on_openurl	OpenUrl.script
+2023-11-20 11:56:18.719 +0900	typetext		https://hotel.testplanisphere.dev[return]	20	on_openurl	OpenUrl.script
+2023-11-20 11:56:20.728 +0900	waitfor	HOTELPLANISPHERE_Logo.png	found at (968, 178)	21	on_openurl	OpenUrl.script
+2023-11-20 11:56:21.738 +0900	click	ToJpnTopPage	at (1075, 586)	22	on_openurl	OpenUrl.script
+2023-11-20 11:56:25.615 +0900	Log		Start movie	26	on_openurl	OpenUrl.script
+2023-11-20 11:56:27.470 +0900	startmovie		/Users/hasebemasahiro/EggplantSuites/HotelPlanisphere.suite/Results/main/20231120_115608.020/Hotelplan.mp4	28	on_openurl	OpenUrl.script
+2023-11-20 11:56:32.516 +0900	click	Login	at (1136, 302)	2	on_login_click	Home.script
+2023-11-20 11:56:38.165 +0900	click	Yoyaku	at (883, 302)	2	on_yoyaku_click	Home.script
+2023-11-20 11:56:39.778 +0900	waitfor	ReloadIcon	found at (93, 60)	3	on_yoyaku_click	Home.script
+2023-11-20 11:56:45.670 +0900	typetext		[downArrow][downArrow][downArrow][downArrow][downArrow]	2	on_yoyakuinit	Yoyaku.script
+2023-11-20 11:57:29.686 +0900	waitfor	SyukuhakuListLogo	found at (652, 230)	3	on_syukuhakulistlogo_validate	Yoyaku.script
+2023-11-20 11:57:35.893 +0900	capturescreen	/Users/hasebemasahiro/EggplantSuites/HotelPlanisphere.suite/Results/main/20231120_115608.020/BeforeClose.png	UserCapturedScreenshot	3D8BCC13-0618-4952-BABE-81668FDA7C5B	3	on_close	Yoyaku.script
+2023-11-20 11:57:46.688 +0900	LogWarning		Unable to Find Image(s): Close宿泊予約.png -- AutoUpdate engaged	5	on_close	Yoyaku.script
+2023-11-20 11:57:49.156 +0900	Exception	Close宿泊予約	No Image Found On Screen: "Close宿泊予約"	5	on_close	Yoyaku.script
+2023-11-20 11:57:49.292 +0900	EndTestCase		(Duration:"101.246431", Errors:"1", Exceptions:"1", StartTime:"2023-11-20 11:56:08 +0900", Successes:"0", TestCase:"main.script", Warnings:"1")
+2023-11-20 11:57:49.300 +0900	ABORTED		Execution Time 0:01:41 main.script

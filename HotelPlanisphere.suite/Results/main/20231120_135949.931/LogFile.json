@@ -1,0 +1,192 @@
+{
+  "entries" : [
+    {
+      "identifier" : "START",
+      "message" : "Running main.script",
+      "timestamp" : "2023-11-20 13:59:49.943 +0900"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "IMAGEUPDATE = Auto",
+      "timestamp" : "2023-11-20 13:59:50.155 +0900",
+      "identifier" : "set",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (49, 133)",
+      "identifier" : "doubleclick",
+      "image" : "ChromeIcon",
+      "handlerLine" : 11,
+      "timestamp" : "2023-11-20 13:59:50.707 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (220, 56)",
+      "identifier" : "click",
+      "image" : "Url",
+      "handlerLine" : 12,
+      "timestamp" : "2023-11-20 13:59:55.524 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "[windowsAltKey] ",
+      "timestamp" : "2023-11-20 13:59:56.249 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 15
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "x",
+      "timestamp" : "2023-11-20 13:59:57.272 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 17
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "https:\/\/hotel.testplanisphere.dev[return]",
+      "timestamp" : "2023-11-20 13:59:58.820 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 21
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "found at (968, 178)",
+      "identifier" : "waitfor",
+      "image" : "HOTELPLANISPHERE_Logo.png",
+      "handlerLine" : 22,
+      "timestamp" : "2023-11-20 14:00:00.805 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "at (1075, 586)",
+      "identifier" : "click",
+      "image" : "ToJpnTopPage",
+      "handlerLine" : 23,
+      "timestamp" : "2023-11-20 14:00:01.057 +0900",
+      "scriptName" : "OpenUrl.script"
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "Start movie",
+      "timestamp" : "2023-11-20 14:00:01.069 +0900",
+      "identifier" : "Log",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 27
+    },
+    {
+      "handlerName" : "on_openurl",
+      "message" : "\/Users\/hasebemasahiro\/EggplantSuites\/HotelPlanisphere.suite\/Results\/main\/20231120_135949.931\/Hotelplan.mp4",
+      "timestamp" : "2023-11-20 14:00:01.326 +0900",
+      "identifier" : "startmovie",
+      "scriptName" : "OpenUrl.script",
+      "handlerLine" : 29
+    },
+    {
+      "handlerName" : "on_login_click",
+      "message" : "at (1136, 302)",
+      "identifier" : "click",
+      "image" : "Login",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 14:00:01.967 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyaku_click",
+      "message" : "at (883, 302)",
+      "identifier" : "click",
+      "image" : "Yoyaku",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 14:00:03.208 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyaku_click",
+      "message" : "found at (93, 60)",
+      "identifier" : "waitfor",
+      "image" : "ReloadIcon",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-20 14:00:03.234 +0900",
+      "scriptName" : "Home.script"
+    },
+    {
+      "handlerName" : "on_yoyakuinit",
+      "message" : "[downArrow][downArrow][downArrow][downArrow][downArrow]",
+      "timestamp" : "2023-11-20 14:00:03.973 +0900",
+      "identifier" : "typetext",
+      "scriptName" : "Yoyaku.script",
+      "handlerLine" : 2
+    },
+    {
+      "handlerName" : "on_syukuhakulistlogo_validate",
+      "message" : "found at (652, 230)",
+      "identifier" : "waitfor",
+      "image" : "SyukuhakuListLogo",
+      "handlerLine" : 3,
+      "timestamp" : "2023-11-20 14:00:04.514 +0900",
+      "scriptName" : "Yoyaku.script"
+    },
+    {
+      "handlerName" : "on_themepark_click",
+      "message" : "at (1341, 1048)",
+      "identifier" : "click",
+      "image" : "ThemePark",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 14:00:10.079 +0900",
+      "scriptName" : "Yoyaku.script"
+    },
+    {
+      "handlerName" : "on_waitscntxt",
+      "message" : "found at (93, 60)",
+      "identifier" : "waitfor",
+      "image" : "ReloadIcon",
+      "handlerLine" : 2,
+      "timestamp" : "2023-11-20 14:00:15.586 +0900",
+      "scriptName" : "共通.script"
+    },
+    {
+      "handlerName" : "on_waitscntxt",
+      "message" : "SEARCHRECTANGLE = [\"予約画面確認_A\",\"予約画面確認_B\"]",
+      "timestamp" : "2023-11-20 14:00:17.122 +0900",
+      "identifier" : "set",
+      "scriptName" : "共通.script",
+      "handlerLine" : 4
+    },
+    {
+      "handlerName" : "on_waitscntxt",
+      "message" : "Unable to Find Text: 宿泊予約 -- AutoUpdate engaged",
+      "timestamp" : "2023-11-20 14:00:46.692 +0900",
+      "identifier" : "LogWarning",
+      "scriptName" : "共通.script",
+      "handlerLine" : 6
+    },
+    {
+      "handlerName" : "on_waitscntxt",
+      "message" : "Unable To Find Any Image On Screen \"(TEXT:\"宿泊予約\")\" within 20.00 seconds. Text not found.",
+      "identifier" : "Exception",
+      "image" : "(TEXT:\"宿泊予約\")",
+      "handlerLine" : 6,
+      "timestamp" : "2023-11-20 14:00:49.838 +0900",
+      "scriptName" : "共通.script"
+    },
+    {
+      "identifier" : "EndTestCase",
+      "message" : "(Duration:\"59.99596\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2023-11-20 13:59:49 +0900\", Successes:\"0\", TestCase:\"main.script\", Warnings:\"1\")",
+      "timestamp" : "2023-11-20 14:00:49.942 +0900"
+    },
+    {
+      "message" : "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"(TEXT:\"宿泊予約\")\" within 20.00 seconds. Text not found.  Restricted Search Rectangle ((439,185),(1437,1088))\\n -- Execution Time 0:01:00 main.script",
+      "timestamp" : "2023-11-20 14:00:50.159 +0900",
+      "identifier" : "FAILURE",
+      "image" : "Screen_Error.png"
+    }
+  ],
+  "createdTimestamp" : "2023-11-20 13:59:49.945 +0900"
+}

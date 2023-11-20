@@ -8,7 +8,10 @@ to handle WaitScnTxt with rsText
 	WaitFor 15, "ReloadIcon"
 	
 	Set the SearchRectangle to ["予約画面確認_A","予約画面確認_B"]
-	WaitFor 20, text:rsText, language:"Japanese", validCharacters:"*"
+	//	WaitFor 20, text:rsText, language:"Japanese", validCharacters:"*"
+	//	WaitFor 20, text:rsText, language:"Japanese, JapaneseModern", validCharacters:"*"
+	WaitFor 20, text:rsText, language:"Japanese, JapaneseModern"
+	
 	set the SearchRectangle to empty
 	
 end WaitScnTxt

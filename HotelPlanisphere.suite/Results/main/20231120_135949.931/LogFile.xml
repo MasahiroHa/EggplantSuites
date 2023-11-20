@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="main_script" package="HotelPlanisphere.suite" timestamp="2023-11-20 13:59:49.931 +0900"
+ tests="1"  failures="1" errors="1" time="60.010610">
+  <properties>
+   <property name="RunDate" value="2023-11-20 13:59:49.931 +0900"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="main.script" assertions="1" status="error"  time="59.99596">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;宿泊予約&quot;)&quot; within 20.00 seconds. Text not found.  Restricted Search Rectangle ((439,185),(1437,1088))\n -- Execution Time 0:01:00 main.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;宿泊予約&quot;)&quot; within 20.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>
