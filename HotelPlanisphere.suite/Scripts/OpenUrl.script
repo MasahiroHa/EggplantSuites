@@ -12,9 +12,9 @@ DoubleClick {Image:"ChromeIcon", WaitFor:20}
 Click {Image:"Url", WaitFor:30}
 
 
-TypeText AltKey,space
-wait 1
-TypeText x
+TypeText AltKey,space,x
+//wait 1
+//TypeText x
 
 wait 1
 

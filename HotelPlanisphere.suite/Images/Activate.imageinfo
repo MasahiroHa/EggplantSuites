@@ -1,0 +1,19 @@
+﻿{
+    CaptureDate = "2023-11-21 00:26:13 +0000";
+    CaptureHost = "Server2019-0101_1920_1200";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 52;
+    HotSpotY = -25;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 77;
+    OriginalLocationY = 45;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Activate";
+    tags = ();
+}

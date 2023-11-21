@@ -7,11 +7,15 @@ go to Eggplant > Preferences... > Script > General > Customize *)
 (* Autosnippets for Checkpoint "SyukuhakuListLogo" *)
 
 to handle SyukuhakuListLogo_Validate duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	WaitFor duration, imageName:"SyukuhakuListLogo"
 end SyukuhakuListLogo_Validate
 
 to handle SyukuhakuListLogo_IsFound duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	return imageFound(imageName:"SyukuhakuListLogo", waitFor:duration)
 end SyukuhakuListLogo_IsFound
@@ -22,11 +26,15 @@ end SyukuhakuListLogo_IsFound
 (* Autosnippets for Checkpoint "Osusume" *)
 
 to handle Osusume_Validate duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	WaitFor duration, imageName:"Osusume"
 end Osusume_Validate
 
 to handle Osusume_IsFound duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	return imageFound(imageName:"Osusume", waitFor:duration)
 end Osusume_IsFound
@@ -37,6 +45,8 @@ end Osusume_IsFound
 (* Autosnippets for Button "Otoku" *)
 
 to handle Otoku_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"Otoku", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -49,11 +59,15 @@ end Otoku_Click
 (* Autosnippets for Checkpoint "Honjitsu" *)
 
 to handle Honjitsu_Validate duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	WaitFor duration, imageName:"Honjitsu"
 end Honjitsu_Validate
 
 to handle Honjitsu_IsFound duration
+	WaitFor 10, "ReloadIcon"
+	
 	if duration is not a number then set duration to 8
 	return imageFound(imageName:"Honjitsu", waitFor:duration)
 end Honjitsu_IsFound
@@ -64,6 +78,8 @@ end Honjitsu_IsFound
 (* Autosnippets for Button "Sudomari" *)
 
 to handle Sudomari_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"Sudomari", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -76,6 +92,8 @@ end Sudomari_Click
 (* Autosnippets for Button "Kashikiri" *)
 
 to handle Kashikiri_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"Kashikiri", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -88,6 +106,8 @@ end Kashikiri_Click
 (* Autosnippets for Button "ThemePark" *)
 
 to handle ThemePark_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"ThemePark", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -100,6 +120,8 @@ end ThemePark_Click
 (* Autosnippets for Button "BussinessPlant" *)
 
 to handle BussinessPlant_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"BussinessPlant", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -112,6 +134,8 @@ end BussinessPlant_Click
 (* Autosnippets for Button "EsteMassage" *)
 
 to handle EsteMassage_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"EsteMassage", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -124,6 +148,8 @@ end EsteMassage_Click
 (* Autosnippets for Button "Couple" *)
 
 to handle Couple_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"Couple", waitFor:8
 	
 	共通.WaitScnTxt "宿泊予約"
@@ -132,6 +158,8 @@ end Couple_Click
 
 -----------------------------------
 to handle YoyakuInit
+	WaitFor 10, "ReloadIcon"
+	
 	TypeText DownArrow,DownArrow,DownArrow,DownArrow,DownArrow
 end YoyakuInit
 
@@ -140,6 +168,7 @@ end YoyakuInit
 (*** End of Autosnippet script Yoyaku.script ***)
 
 to handle Close
+	WaitFor 10, "ReloadIcon"
 	wait 2
 	CaptureScreen {Name: "BeforeClose"}
 	

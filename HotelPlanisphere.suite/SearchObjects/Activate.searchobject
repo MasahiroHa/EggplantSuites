@@ -1,13 +1,13 @@
 {
-  "lastmodifieddate" : 1690963531.7549992,
+  "lastmodifieddate" : 1700526388.70538,
   "ocrcapturestring" : "c",
   "testlocationdata" : [
     {
-      "connectionserverid" : "Server2016-0101",
+      "connectionserverid" : "Server2019-0101",
       "sutinfo" : {
         "type" : "Unknown RDP"
       },
-      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionname" : "Server2019-0101_1920_1200",
       "connectionportnum" : 3389,
       "connectiontype" : "RDP",
       "capturedocrtext" : "c",
@@ -17,11 +17,11 @@
         "SearchType" : "Tolerant of Background",
         "Discrepancy" : "_0",
         "Tolerance" : "_45",
-        "CropRectangle" : "[0,0,0,0]",
-        "HotSpot" : "[16,15]"
+        "HotSpot" : "[52,-25]",
+        "CropRectangle" : "[0,0,0,0]"
       },
       "type" : 1,
-      "name" : "ReloadIcon.png",
+      "name" : "Activate.png",
       "capturerect" : [
         77,
         45,
@@ -30,7 +30,7 @@
       ]
     }
   ],
-  "createddate" : 1690963531.754998,
+  "createddate" : 1700526388.705379,
   "lastfoundlocation" : [
     77,
     45,
@@ -43,6 +43,6 @@
     20,
     20
   ],
-  "lastfounddate" : 1700527083.8545818,
-  "name" : "ReloadIcon"
+  "lastfounddate" : 1700527124.550396,
+  "name" : "Activate"
 }

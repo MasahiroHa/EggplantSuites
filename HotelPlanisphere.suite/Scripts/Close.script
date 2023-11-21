@@ -1,5 +1,5 @@
 ﻿//Click imageName:"Close", waitFor:10
 
+ActivateBrowser
 TypeText ControlDown,F4,ControlUp
 
-StopMovie
