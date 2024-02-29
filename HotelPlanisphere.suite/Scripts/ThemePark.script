@@ -141,13 +141,14 @@ to handle 宿泊日_Click
 	put curM & "-" after global gsKikan.sFrom	
 	
 	set selday to random(today, lastDay)
-	put "0" & selday into selday
-	put last 2 chars of selday into selday
-	put selday after global gsKikan.sFrom
 	
 	set the SearchRectangle to empty
 	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
 	Click text:selday, waitFor:10
+	
+	put "0" & selday into selday
+	put last 2 chars of selday into selday
+	put selday after global gsKikan.sFrom
 	
 	//	set the SearchRectangle to empty
 	//	Set the SearchRectangle to ("CalenderClose_A","CalenderClose_B")

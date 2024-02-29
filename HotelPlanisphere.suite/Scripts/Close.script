@@ -1,3 +1,5 @@
-﻿Click imageName:"Close", waitFor:10
+﻿//Click imageName:"Close", waitFor:10
+Click imageName:"ActivatePoint", waitFor:10
+TypeText AltDown,F4
 
 StopMovie

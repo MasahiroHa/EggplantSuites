@@ -1,0 +1,48 @@
+{
+	"originalcapturelocation": [
+		14,
+		105,
+		207,
+		22
+	],
+	"lastmodifieddate": 1709191159.365,
+	"createddate": 1709191159.365,
+	"name": "ActivatePoint",
+	"lastfounddate": 1709191318.4780002,
+	"ocrcapturestring": "HOTEL PLANISPHERE",
+	"lastfoundlocation": [
+		14,
+		105,
+		207,
+		22
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 58032,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[76,114]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ActivatePoint.png",
+				"connectionname": "Server2019-0101",
+				"type": 1,
+				"connectionserverid": "Server2019-0101",
+				"capturerect": [
+					14,
+					105,
+					207,
+					22
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "HOTEL PLANISPHERE"
+			}
+	]
+}
