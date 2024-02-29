@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running ThemePark.script",
+				"identifier": "START",
+				"timestamp": "2024-02-29 14:18:28.097 +0900"
+			},
+		{
+				"message": "(Duration:\"0.081\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-02-29 14:18:28 +0900\", Successes:\"1\", TestCase:\"ThemePark.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-02-29 14:18:28.178 +0900"
+			},
+		{
+				"message": "Execution Time 0:00:00 ThemePark.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-02-29 14:18:28.247 +0900"
+			}
+	],
+	"createdTimestamp": "2024-02-29 14:18:28.097 +0900"
+}

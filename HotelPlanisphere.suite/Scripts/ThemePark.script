@@ -96,51 +96,72 @@ end 最長5泊_IsFound
 (* Autosnippets for Button "宿泊日" *)
 
 to handle 宿泊日_Click
+
+	put ReadText(["RL_Date_A","RL_Date_B"]) into sCurCalDate
+	replace "/" by "-" in sCurCalDate
+	put sCurCalDate
+	
+	set the timeInputFormat to iso8601
+	set curM to month(sCurCalDate)
+	put "0" & curM into curM
+	put last 2 chars of curM into curM
+	
 	Click imageName:"宿泊日", waitFor:8
 	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
 	put ReadText(["CalenderBlueRU_A","CalenderBlueRU_B"]) into today
 
-	set curM to month()
+	put year(sCurCalDate) & "-" & curM & "-01" into sStDayOfM
+	add one month to sStDayOfM
+	put sStDayOfM - 1 day into sEndDayOfM
+	
+	put sEndDayOfM
+	
+	set lastDay to day(sEndDayOfM)
+	
+	(*	
 	if ...
 		... curM = 1 or curM = 3 or curM = 7 or curM=8 or curM=10 or curM=12:
 			set lastDay to 31
 		... curM = 4 or curM= 6 or curM=9 or curM =11 :
 			set lastDay to 30	
-			... Else
+		... Else
 			set lastDay to 28	
-		End if
-		(*
+	End if
+*)
+	(*
 	put year() & "-" into global gsKikanFr
 	put curM & "-" after global gsKikanFr	
 	
 	set selday to random(today, lastDay)
 	put selday after global gsKikanFr
 *)
-		
-		
-		put year() & "-" into global gsKikan.sFrom
-		put curM & "-" after global gsKikan.sFrom	
-		
-		set selday to random(today, lastDay)
-		put selday after global gsKikan.sFrom
-		
-		set the SearchRectangle to empty
-		Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
-		Click text:selday, waitFor:10
-		
-		//	set the SearchRectangle to empty
-		//	Set the SearchRectangle to ("CalenderClose_A","CalenderClose_B")
-		
-		//	Click text:"閉じる", waitFor:10, validCharacters:"*"
-		
-		set the SearchRectangle to empty
-	end 宿泊日_Click
-	
-	-----------------------------------
 	
 	
-	(* Autosnippets for Button "宿泊数" *)
+	put year(sCurCalDate) & "-" into global gsKikan.sFrom
+	put curM & "-" after global gsKikan.sFrom	
 	
+	set selday to random(today, lastDay)
+	put "0" & selday into selday
+	put last 2 chars of selday into selday
+	put selday after global gsKikan.sFrom
+	
+	set the SearchRectangle to empty
+	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
+	Click text:selday, waitFor:10
+	
+	//	set the SearchRectangle to empty
+	//	Set the SearchRectangle to ("CalenderClose_A","CalenderClose_B")
+	
+	//	Click text:"閉じる", waitFor:10, validCharacters:"*"
+	
+	set the SearchRectangle to empty
+end 宿泊日_Click
+
+-----------------------------------
+
+
+(* Autosnippets for Button "宿泊数" *)
+
 to handle 宿泊数_Click
 	Click imageName:"宿泊数", waitFor:8
 	set selDays to random(0, 4)
@@ -182,8 +203,8 @@ end 予約を確定する_Click
 
 to handle 人数_Click
 	Click imageName:"人数", waitFor:8
-	set P to random(0, 8)
-	Repeat while P > repeatindex()
+	set iPerson to random(0, 8)
+	Repeat while iPerson > repeatindex()
 		Click (Image:"人数設定", WaitFor:10)
 	End repeat
 end 人数_Click

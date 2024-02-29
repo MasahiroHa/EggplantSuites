@@ -1,12 +1,20 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
+ <script name="main">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2023-08-03 09:45:57 +0900</FirstRun>
+  <LastRun>2023-08-03 15:03:54 +0900</LastRun>
+  <TotalTimeOnSuccess>47.932901</TotalTimeOnSuccess>
+ </script>
  <script name="ThemePark">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfRuns>4</NumberOfRuns>
   <NumberOfFails>0</NumberOfFails>
   <FirstRun>2023-08-03 11:39:30 +0900</FirstRun>
-  <LastRun>2023-08-03 13:35:52 +0900</LastRun>
-  <TotalTimeOnSuccess>0.815526</TotalTimeOnSuccess>
+  <LastRun>2024-02-29 14:18:28 +0900</LastRun>
+  <TotalTimeOnSuccess>0.903526</TotalTimeOnSuccess>
  </script>
  <script name="OpenUrl">
   <LastStatus>Success</LastStatus>
@@ -15,13 +23,5 @@
   <FirstRun>2023-08-02 16:42:08 +0900</FirstRun>
   <LastRun>2023-08-29 11:39:41 +0900</LastRun>
   <TotalTimeOnSuccess>33.521322</TotalTimeOnSuccess>
- </script>
- <script name="main">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
-  <FirstRun>2023-08-03 09:45:57 +0900</FirstRun>
-  <LastRun>2023-08-03 15:03:54 +0900</LastRun>
-  <TotalTimeOnSuccess>47.932901</TotalTimeOnSuccess>
  </script>
 </statistics>
