@@ -1,0 +1,18 @@
+﻿{
+    CaptureDate = "2024-03-04 04:07:34 +0000";
+    CaptureHost = "Server2019Rdp1920x1200_1";
+    CaptureScreenSize = (
+        1920,
+        1200);
+    HasAlpha = 1;
+    HotSpotX = 72;
+    HotSpotY = 6;
+    LastKnownLocationX = 0;
+    LastKnownLocationY = 0;
+    OriginalLocationX = 204;
+    OriginalLocationY = 59;
+    Precise = 0;
+    Pulsing = 0;
+    Scale = 1;
+    SearchObjectName = "Url";
+}

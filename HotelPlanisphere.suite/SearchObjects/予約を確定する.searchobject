@@ -1,39 +1,39 @@
 {
-	"lastmodifieddate": 1691025445.252677,
-	"lastfoundlocation": [
-		1162,
-		475,
-		150,
-		24
-	],
-	"originalcapturelocation": [
-		641,
-		279,
-		150,
-		24
-	],
-	"createddate": 1691025445.252676,
-	"lastfounddate": 1709190344.474,
-	"testlocationdata": [
-		{
-				"name": "予約を確定する.png",
-				"type": 1,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[75,12]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"capturerect": [
-					641,
-					279,
-					150,
-					24
-				]
-			}
-	],
-	"name": "予約を確定する"
+  "lastmodifieddate" : 1691025445.252677,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        641,
+        279,
+        150,
+        24
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[75,12]"
+      },
+      "name" : "予約を確定する.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025445.252676,
+  "lastfoundlocation" : [
+    1162,
+    475,
+    150,
+    24
+  ],
+  "originalcapturelocation" : [
+    641,
+    279,
+    150,
+    24
+  ],
+  "lastfounddate" : 1709526143.348083,
+  "name" : "予約を確定する"
 }

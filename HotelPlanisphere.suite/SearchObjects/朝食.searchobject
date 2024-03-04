@@ -1,39 +1,39 @@
 {
-	"lastmodifieddate": 1691025446.2702708,
-	"lastfoundlocation": [
-		557,
-		660,
-		118,
-		21
-	],
-	"originalcapturelocation": [
-		36,
-		464,
-		118,
-		21
-	],
-	"createddate": 1691025446.2702708,
-	"lastfounddate": 1709175069.72,
-	"testlocationdata": [
-		{
-				"name": "朝食.png",
-				"type": 1,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[-11,11]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"capturerect": [
-					36,
-					464,
-					118,
-					21
-				]
-			}
-	],
-	"name": "朝食"
+  "lastmodifieddate" : 1691025446.2702708,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        36,
+        464,
+        118,
+        21
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[-11,11]"
+      },
+      "name" : "朝食.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025446.2702708,
+  "lastfoundlocation" : [
+    557,
+    660,
+    118,
+    21
+  ],
+  "originalcapturelocation" : [
+    36,
+    464,
+    118,
+    21
+  ],
+  "lastfounddate" : 1709526131.918494,
+  "name" : "朝食"
 }

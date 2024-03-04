@@ -1,39 +1,39 @@
 {
-	"lastmodifieddate": 1690963208.3075089,
-	"lastfoundlocation": [
-		851,
-		214,
-		203,
-		26
-	],
-	"originalcapturelocation": [
-		404,
-		175,
-		203,
-		26
-	],
-	"createddate": 1690963208.3075089,
-	"lastfounddate": 1709190310.4910002,
-	"testlocationdata": [
-		{
-				"name": "Otoku.png",
-				"type": 1,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[97,149]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"capturerect": [
-					404,
-					175,
-					203,
-					26
-				]
-			}
-	],
-	"name": "Otoku"
+  "lastmodifieddate" : 1690963208.3075089,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        404,
+        175,
+        203,
+        26
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[97,149]"
+      },
+      "name" : "Otoku.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1690963208.3075089,
+  "lastfoundlocation" : [
+    851,
+    392,
+    203,
+    26
+  ],
+  "originalcapturelocation" : [
+    404,
+    175,
+    203,
+    26
+  ],
+  "lastfounddate" : 1709526019.87467,
+  "name" : "Otoku"
 }

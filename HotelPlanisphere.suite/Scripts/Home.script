@@ -7,6 +7,8 @@ go to Eggplant > Preferences... > Script > General > Customize *)
 (* Autosnippets for Button "Yoyaku" *)
 
 to handle Yoyaku_Click
+	WaitFor 10, "ReloadIcon"
+	
 	Click imageName:"Yoyaku", waitFor:8
 	WaitFor 10, "ReloadIcon"
 	Yoyaku.YoyakuInit
@@ -18,6 +20,7 @@ end Yoyaku_Click
 (* Autosnippets for Button "Touroku" *)
 
 to handle Touroku_Click
+	WaitFor 10, "ReloadIcon"
 	Click imageName:"Touroku", waitFor:8
 end Touroku_Click
 
@@ -27,6 +30,7 @@ end Touroku_Click
 (* Autosnippets for Button "Login" *)
 
 to handle Login_Click
+	WaitFor 10, "ReloadIcon"
 	Click imageName:"Login", waitFor:8
 end Login_Click
 
