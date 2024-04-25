@@ -2,11 +2,11 @@
 <statistics>
  <script name="main">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
   <FirstRun>2023-08-03 09:45:57 +0900</FirstRun>
-  <LastRun>2023-08-03 15:03:54 +0900</LastRun>
-  <TotalTimeOnSuccess>47.932901</TotalTimeOnSuccess>
+  <LastRun>2024-04-25 15:59:02 +0900</LastRun>
+  <TotalTimeOnSuccess>860.707901</TotalTimeOnSuccess>
  </script>
  <script name="ThemePark">
   <LastStatus>Success</LastStatus>

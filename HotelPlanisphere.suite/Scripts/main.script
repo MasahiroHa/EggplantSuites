@@ -1,1 +1,17 @@
-﻿OpenUrl
+﻿Connect "suthvpc101"
+Connect "Single System"
+
+put random(1, 2) into iMode
+
+if mode is 1 then
+	Connect "suthvpc101"
+	main_test
+	Connect "Single System"
+	main_test
+else
+	Connect "Single System"
+	main_test
+	Connect "suthvpc101"
+	main_test
+	
+end if

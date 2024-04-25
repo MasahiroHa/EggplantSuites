@@ -1,39 +1,65 @@
 {
-  "lastmodifieddate" : 1690962389.654386,
-  "testlocationdata" : [
-    {
-      "capturerect" : [
-        270,
-        22,
-        92,
-        40
-      ],
-      "properties" : {
-        "Rotate" : 0,
-        "Scale" : "    1",
-        "SearchType" : "Precise to Pixel",
-        "Discrepancy" : "_0",
-        "Tolerance" : "_1",
-        "CropRectangle" : "[0,0,0,0]",
-        "HotSpot" : "[46,20]"
-      },
-      "name" : "Login.png",
-      "type" : 1
-    }
-  ],
-  "createddate" : 1690962389.6543851,
-  "lastfoundlocation" : [
-    1090,
-    292,
-    92,
-    40
-  ],
-  "originalcapturelocation" : [
-    270,
-    22,
-    92,
-    40
-  ],
-  "lastfounddate" : 1709526011.2185869,
-  "name" : "Login"
+	"lastmodifieddate": 1714026534.299,
+	"lastfoundlocation": [
+		1090,
+		292,
+		92,
+		40
+	],
+	"originalcapturelocation": [
+		270,
+		22,
+		92,
+		40
+	],
+	"createddate": 1690962389.6543851,
+	"lastfounddate": 1714028399.4390001,
+	"testlocationdata": [
+		{
+				"name": "Login/Login.png",
+				"type": 1,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,20]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"capturerect": [
+					270,
+					22,
+					92,
+					40
+				]
+			},
+		{
+				"connectionportnum": 50586,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[46,20]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "Login/Login2.png",
+				"connectionname": "Single System",
+				"type": 1,
+				"capturerect": [
+					1090,
+					292,
+					92,
+					40
+				],
+				"connectiontype": "Single System",
+				"connectionserverid": "127.0.0.1"
+			}
+	],
+	"name": "Login"
 }

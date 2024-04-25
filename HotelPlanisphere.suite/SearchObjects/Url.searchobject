@@ -1,94 +1,94 @@
 {
-  "lastmodifieddate" : 1709525261.229562,
-  "ocrcapturestring" : "c",
-  "testlocationdata" : [
-    {
-      "capturerect" : [
-        76,
-        44,
-        18,
-        24
-      ],
-      "properties" : {
-        "Rotate" : 0,
-        "Scale" : "    1",
-        "SearchType" : "Tolerant of Background",
-        "Discrepancy" : "_0",
-        "Tolerance" : "_45",
-        "CropRectangle" : "[0,0,0,0]",
-        "HotSpot" : "[144,12]"
-      },
-      "capturedocrtext" : "c",
-      "name" : "Url\/Url.png",
-      "type" : 1
-    },
-    {
-      "connectionserverid" : "server2019-0101",
-      "sutinfo" : {
-        "type" : "Unknown RDP"
-      },
-      "connectionname" : "Server2019Rdp1920x1200_1",
-      "connectionportnum" : 3389,
-      "connectiontype" : "RDP",
-      "capturedocrtext" : "0",
-      "properties" : {
-        "Rotate" : 0,
-        "Scale" : "    1",
-        "SearchType" : "Tolerant of Background",
-        "Discrepancy" : "_0",
-        "Tolerance" : "_45",
-        "CropRectangle" : "[0,0,0,0]",
-        "HotSpot" : "[128,10]"
-      },
-      "type" : 1,
-      "name" : "Url\/Url2.png",
-      "capturerect" : [
-        85,
-        53,
-        16,
-        21
-      ]
-    },
-    {
-      "name" : "Url\/Url3.png",
-      "sutinfo" : {
-        "type" : "Unknown RDP"
-      },
-      "connectionname" : "Server2019Rdp1920x1200_1",
-      "connectionportnum" : 3389,
-      "connectiontype" : "RDP",
-      "properties" : {
-        "Rotate" : 0,
-        "Scale" : "    1",
-        "SearchType" : "Tolerant of Background",
-        "Discrepancy" : "_0",
-        "Tolerance" : "_45",
-        "HotSpot" : "[72,6]",
-        "CropRectangle" : "[0,0,0,0]"
-      },
-      "type" : 1,
-      "connectionserverid" : "server2019-0101",
-      "capturerect" : [
-        204,
-        59,
-        9,
-        13
-      ]
-    }
-  ],
-  "createddate" : 1690962111.203763,
-  "lastfoundlocation" : [
-    204,
-    59,
-    9,
-    13
-  ],
-  "originalcapturelocation" : [
-    76,
-    44,
-    18,
-    24
-  ],
-  "lastfounddate" : 1709525998.4472089,
-  "name" : "Url"
+	"originalcapturelocation": [
+		76,
+		44,
+		18,
+		24
+	],
+	"lastmodifieddate": 1709525261.229562,
+	"createddate": 1690962111.203763,
+	"name": "Url",
+	"lastfounddate": 1714028395.625,
+	"ocrcapturestring": "c",
+	"lastfoundlocation": [
+		85,
+		53,
+		16,
+		21
+	],
+	"testlocationdata": [
+		{
+				"capturedocrtext": "c",
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[144,12]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"type": 1,
+				"capturerect": [
+					76,
+					44,
+					18,
+					24
+				],
+				"name": "Url/Url.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[128,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url2.png",
+				"connectionname": "Server2019Rdp1920x1200_1",
+				"type": 1,
+				"connectionserverid": "server2019-0101",
+				"capturerect": [
+					85,
+					53,
+					16,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "0"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[72,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url3.png",
+				"connectionname": "Server2019Rdp1920x1200_1",
+				"type": 1,
+				"capturerect": [
+					204,
+					59,
+					9,
+					13
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "server2019-0101"
+			}
+	]
 }
