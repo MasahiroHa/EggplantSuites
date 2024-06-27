@@ -5,16 +5,16 @@
 		18,
 		24
 	],
-	"lastmodifieddate": 1690962111.203764,
+	"lastmodifieddate": 1719468571.743,
 	"createddate": 1690962111.203763,
 	"name": "Url",
-	"lastfounddate": 1693284613.7079999,
+	"lastfounddate": 1719469023.9460001,
 	"ocrcapturestring": "c",
 	"lastfoundlocation": [
-		76,
-		44,
-		18,
-		24
+		85,
+		53,
+		16,
+		21
 	],
 	"testlocationdata": [
 		{
@@ -35,7 +35,143 @@
 					18,
 					24
 				],
-				"name": "Url.png"
+				"name": "Url/Url.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[128,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url2.png",
+				"connectionname": "Server2019Rdp1920x1200_1",
+				"type": 1,
+				"connectionserverid": "server2019-0101",
+				"capturerect": [
+					85,
+					53,
+					16,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "0"
+			},
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[72,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url3.png",
+				"connectionname": "Server2019Rdp1920x1200_1",
+				"type": 1,
+				"capturerect": [
+					204,
+					59,
+					9,
+					13
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "server2019-0101"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[128,10]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url4.png",
+				"connectionname": "suthvpc101_1",
+				"type": 1,
+				"connectionserverid": "suthvpc101",
+				"capturerect": [
+					85,
+					53,
+					16,
+					21
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "3"
+			},
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[72,6]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url5.png",
+				"connectionname": "qmcpc5",
+				"type": 1,
+				"capturerect": [
+					51,
+					41,
+					9,
+					13
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "qmcpc5"
+			},
+		{
+				"connectionportnum": 3389,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[40,3]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Url/Url5.png",
+				"connectionname": "qmcpc5_1",
+				"type": 1,
+				"connectionserverid": "qmcpc5",
+				"capturerect": [
+					108,
+					1180,
+					5,
+					8
+				],
+				"connectiontype": "RDP",
+				"capturedocrtext": "I"
 			}
 	]
 }

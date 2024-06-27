@@ -16,6 +16,8 @@ Click (Image:"ToJpnTopPage", WaitFor:20)
 
 put {sFrom:"", sTo:"", iSelDays:0} into global gsKikan
 
+set the readtextsettings to {DPI:97}
+
 Log "Start movie"
 
 StartMovie "Hotelplan"

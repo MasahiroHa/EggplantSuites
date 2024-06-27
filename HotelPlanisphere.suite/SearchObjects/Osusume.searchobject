@@ -5,14 +5,14 @@
 		159,
 		24
 	],
-	"lastmodifieddate": 1690963207.662312,
+	"lastmodifieddate": 1708924981.3660002,
 	"createddate": 1690963207.6623111,
 	"name": "Osusume",
-	"lastfounddate": 1693284693.8499999,
+	"lastfounddate": 1719469031.6799998,
 	"ocrcapturestring": "3S\tdi) 7\" 3* > ☆",
 	"lastfoundlocation": [
 		873,
-		527,
+		337,
 		159,
 		24
 	],
@@ -35,7 +35,33 @@
 					159,
 					24
 				],
-				"name": "Osusume.png"
+				"name": "Osusume/Osusume.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[79,12]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "Osusume/Osusume2.png",
+				"connectionname": "Server2019Rdp1920x1200_1",
+				"type": 1,
+				"capturerect": [
+					873,
+					337,
+					159,
+					24
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "server2019-0101"
 			}
 	]
 }

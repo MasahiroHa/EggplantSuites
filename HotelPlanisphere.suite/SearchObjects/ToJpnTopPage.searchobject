@@ -1,8 +1,8 @@
 {
-	"lastmodifieddate": 1690962290.657268,
+	"lastmodifieddate": 1719378825.645,
 	"lastfoundlocation": [
 		996,
-		561,
+		571,
 		138,
 		38
 	],
@@ -13,7 +13,7 @@
 		38
 	],
 	"createddate": 1690962290.657268,
-	"lastfounddate": 1693284617.21,
+	"lastfounddate": 1719469027.0240002,
 	"testlocationdata": [
 		{
 				"connectionportnum": 3389,
@@ -29,7 +29,7 @@
 				"sutinfo": {
 					"type": "Unknown RDP"
 				},
-				"name": "ToJpnTopPage.png",
+				"name": "ToJpnTopPage/ToJpnTopPage.png",
 				"connectionname": "Server2016-0101_1920_1200",
 				"type": 1,
 				"capturerect": [
@@ -40,6 +40,32 @@
 				],
 				"connectiontype": "RDP",
 				"connectionserverid": "Server2016-0101"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[79,25]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ToJpnTopPage/ToJpnTopPage2.png",
+				"connectionname": "qmcpc5",
+				"type": 1,
+				"capturerect": [
+					996,
+					571,
+					138,
+					38
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "qmcpc5"
 			}
 	],
 	"name": "ToJpnTopPage"

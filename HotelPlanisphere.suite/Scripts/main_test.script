@@ -1,0 +1,21 @@
+﻿OpenUrl
+Home.Login_Click
+Home.Yoyaku_Click
+Yoyaku.SyukuhakuListLogo_Validate
+Yoyaku.Osusume_Validate
+Yoyaku.YoyakuInit
+Yoyaku.Otoku_Click
+Yoyaku.Close
+Yoyaku.ThemePark_Click
+ThemePark._1から9名_Validate
+ThemePark.ThemeParkPgTiitle_Validate
+ThemePark.おひとり様1泊_Validate
+ThemePark.Input宿泊日から氏名 3
+ThemePark.Input連絡先
+ThemePark.電話
+ThemePark.Inputご要望 "メッセージサンプル"
+ThemePark.予約を確定する_Click
+YoyakuKakunin.Validate_予約確認
+YoyakuKakunin.予約する
+Click imageName:"Close", waitFor:10
+StopMovie
