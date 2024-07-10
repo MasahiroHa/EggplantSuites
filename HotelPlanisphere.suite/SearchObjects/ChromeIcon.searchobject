@@ -5,14 +5,14 @@
 		29,
 		35
 	],
-	"lastmodifieddate": 1693283053.4819999,
+	"lastmodifieddate": 1719821041.598,
 	"createddate": 1690962109.7543612,
 	"name": "ChromeIcon",
-	"lastfounddate": 1693284482.7290001,
+	"lastfounddate": 1719821382.4419999,
 	"ocrcapturestring": "O",
 	"lastfoundlocation": [
 		37,
-		119,
+		728,
 		29,
 		35
 	],
@@ -36,6 +36,32 @@
 					35
 				],
 				"name": "ChromeIcon/ChromeIcon.png"
+			},
+		{
+				"connectionportnum": 3389,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[7,9]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown RDP"
+				},
+				"name": "ChromeIcon/ChromeIcon3.png",
+				"connectionname": "qmcpc5_1",
+				"type": 1,
+				"capturerect": [
+					600,
+					1171,
+					15,
+					19
+				],
+				"connectiontype": "RDP",
+				"connectionserverid": "qmcpc5"
 			}
 	]
 }
