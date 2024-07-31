@@ -1,91 +1,91 @@
 {
-	"lastmodifieddate": 1719378835.77,
-	"lastfoundlocation": [
-		1090,
-		292,
-		92,
-		40
-	],
-	"originalcapturelocation": [
-		270,
-		22,
-		92,
-		40
-	],
-	"createddate": 1690962389.6543851,
-	"lastfounddate": 1719821394.927,
-	"testlocationdata": [
-		{
-				"name": "Login/Login.png",
-				"type": 1,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[46,20]",
-					"Tolerance": "_1",
-					"Discrepancy": "_0",
-					"SearchType": "Precise to Pixel"
-				},
-				"capturerect": [
-					270,
-					22,
-					92,
-					40
-				]
-			},
-		{
-				"connectionportnum": 50586,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[46,20]",
-					"Tolerance": "_1",
-					"Discrepancy": "_0",
-					"SearchType": "Precise to Pixel"
-				},
-				"sutinfo": {
-					"type": "Unknown VNC"
-				},
-				"name": "Login/Login2.png",
-				"connectionname": "Single System",
-				"type": 1,
-				"capturerect": [
-					1090,
-					292,
-					92,
-					40
-				],
-				"connectiontype": "Single System",
-				"connectionserverid": "127.0.0.1"
-			},
-		{
-				"connectionportnum": 3389,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[46,20]",
-					"Tolerance": "_1",
-					"Discrepancy": "_0",
-					"SearchType": "Precise to Pixel"
-				},
-				"sutinfo": {
-					"type": "Unknown RDP"
-				},
-				"name": "Login/Login3.png",
-				"connectionname": "qmcpc5",
-				"type": 1,
-				"capturerect": [
-					1090,
-					292,
-					92,
-					40
-				],
-				"connectiontype": "RDP",
-				"connectionserverid": "qmcpc5"
-			}
-	],
-	"name": "Login"
+  "lastmodifieddate" : 1719378835.77,
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        270,
+        22,
+        92,
+        40
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[46,20]"
+      },
+      "name" : "Login\/Login.png",
+      "type" : 1
+    },
+    {
+      "name" : "Login\/Login2.png",
+      "sutinfo" : {
+        "type" : "Unknown VNC"
+      },
+      "connectionname" : "Single System",
+      "connectionportnum" : 50586,
+      "connectiontype" : "Single System",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[46,20]"
+      },
+      "type" : 1,
+      "connectionserverid" : "127.0.0.1",
+      "capturerect" : [
+        1090,
+        292,
+        92,
+        40
+      ]
+    },
+    {
+      "name" : "Login\/Login3.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "qmcpc5",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Precise to Pixel",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_1",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[46,20]"
+      },
+      "type" : 1,
+      "connectionserverid" : "qmcpc5",
+      "capturerect" : [
+        1090,
+        292,
+        92,
+        40
+      ]
+    }
+  ],
+  "createddate" : 1690962389.6543851,
+  "lastfoundlocation" : [
+    1090,
+    292,
+    92,
+    40
+  ],
+  "originalcapturelocation" : [
+    270,
+    22,
+    92,
+    40
+  ],
+  "lastfounddate" : 1722391519.013835,
+  "name" : "Login"
 }

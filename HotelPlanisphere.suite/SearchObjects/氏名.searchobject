@@ -1,41 +1,41 @@
 {
-	"originalcapturelocation": [
-		17,
-		584,
-		36,
-		22
-	],
-	"lastmodifieddate": 1691025447.852134,
-	"createddate": 1691025447.852133,
-	"name": "氏名",
-	"lastfounddate": 1719821407.1139998,
-	"ocrcapturestring": "S.&",
-	"lastfoundlocation": [
-		538,
-		780,
-		36,
-		22
-	],
-	"testlocationdata": [
-		{
-				"capturedocrtext": "S.&",
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[27,51]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"type": 1,
-				"capturerect": [
-					17,
-					584,
-					36,
-					22
-				],
-				"name": "氏名.png"
-			}
-	]
+  "lastmodifieddate" : 1691025447.852134,
+  "ocrcapturestring" : "S.&",
+  "testlocationdata" : [
+    {
+      "capturerect" : [
+        17,
+        584,
+        36,
+        22
+      ],
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[27,51]"
+      },
+      "capturedocrtext" : "S.&",
+      "name" : "氏名.png",
+      "type" : 1
+    }
+  ],
+  "createddate" : 1691025447.852133,
+  "lastfoundlocation" : [
+    538,
+    780,
+    36,
+    22
+  ],
+  "originalcapturelocation" : [
+    17,
+    584,
+    36,
+    22
+  ],
+  "lastfounddate" : 1722391634.6502261,
+  "name" : "氏名"
 }

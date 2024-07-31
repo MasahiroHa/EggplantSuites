@@ -1,46 +1,46 @@
 {
-	"lastmodifieddate": 1691030058.9535589,
-	"lastfoundlocation": [
-		536,
-		457,
-		95,
-		21
-	],
-	"originalcapturelocation": [
-		536,
-		447,
-		95,
-		21
-	],
-	"createddate": 1691030058.953558,
-	"lastfounddate": 1719468643.9460001,
-	"testlocationdata": [
-		{
-				"connectionportnum": 3389,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[480,47]",
-					"Tolerance": "_45",
-					"Discrepancy": "_0",
-					"SearchType": "Tolerant of Background"
-				},
-				"sutinfo": {
-					"type": "Unknown RDP"
-				},
-				"name": "宿泊数設定.png",
-				"connectionname": "Server2016-0101_1920_1200",
-				"type": 1,
-				"capturerect": [
-					536,
-					447,
-					95,
-					21
-				],
-				"connectiontype": "RDP",
-				"connectionserverid": "Server2016-0101"
-			}
-	],
-	"name": "宿泊数設定"
+  "lastmodifieddate" : 1691030058.9535589,
+  "testlocationdata" : [
+    {
+      "name" : "宿泊数設定.png",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Tolerant of Background",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_45",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[480,47]"
+      },
+      "type" : 1,
+      "connectionserverid" : "Server2016-0101",
+      "capturerect" : [
+        536,
+        447,
+        95,
+        21
+      ]
+    }
+  ],
+  "createddate" : 1691030058.953558,
+  "lastfoundlocation" : [
+    536,
+    457,
+    95,
+    21
+  ],
+  "originalcapturelocation" : [
+    536,
+    447,
+    95,
+    21
+  ],
+  "lastfounddate" : 1722391630.992398,
+  "name" : "宿泊数設定"
 }

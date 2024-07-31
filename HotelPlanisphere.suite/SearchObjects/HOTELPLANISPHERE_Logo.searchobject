@@ -1,48 +1,48 @@
 {
-	"originalcapturelocation": [
-		640,
-		146,
-		656,
-		64
-	],
-	"lastmodifieddate": 1690962221.5764241,
-	"createddate": 1690962221.5764232,
-	"name": "HOTELPLANISPHERE_Logo",
-	"lastfounddate": 1719821391.77,
-	"ocrcapturestring": "HOTEL PLANISPHERE",
-	"lastfoundlocation": [
-		640,
-		156,
-		656,
-		64
-	],
-	"testlocationdata": [
-		{
-				"connectionportnum": 3389,
-				"properties": {
-					"CropRectangle": "[0,0,0,0]",
-					"Rotate": 0,
-					"Scale": "    1",
-					"HotSpot": "[328,32]",
-					"Tolerance": "_64",
-					"Discrepancy": "_0",
-					"SearchType": "Smoothed for Text"
-				},
-				"sutinfo": {
-					"type": "Unknown RDP"
-				},
-				"name": "HOTELPLANISPHERE_Logo.png",
-				"connectionname": "Server2016-0101_1920_1200",
-				"type": 1,
-				"connectionserverid": "Server2016-0101",
-				"capturerect": [
-					640,
-					146,
-					656,
-					64
-				],
-				"connectiontype": "RDP",
-				"capturedocrtext": "HOTEL PLANISPHERE"
-			}
-	]
+  "lastmodifieddate" : 1690962221.5764241,
+  "ocrcapturestring" : "HOTEL PLANISPHERE",
+  "testlocationdata" : [
+    {
+      "connectionserverid" : "Server2016-0101",
+      "sutinfo" : {
+        "type" : "Unknown RDP"
+      },
+      "connectionname" : "Server2016-0101_1920_1200",
+      "connectionportnum" : 3389,
+      "connectiontype" : "RDP",
+      "capturedocrtext" : "HOTEL PLANISPHERE",
+      "properties" : {
+        "Rotate" : 0,
+        "Scale" : "    1",
+        "SearchType" : "Smoothed for Text",
+        "Discrepancy" : "_0",
+        "Tolerance" : "_64",
+        "CropRectangle" : "[0,0,0,0]",
+        "HotSpot" : "[328,32]"
+      },
+      "type" : 1,
+      "name" : "HOTELPLANISPHERE_Logo.png",
+      "capturerect" : [
+        640,
+        146,
+        656,
+        64
+      ]
+    }
+  ],
+  "createddate" : 1690962221.5764232,
+  "lastfoundlocation" : [
+    640,
+    156,
+    656,
+    64
+  ],
+  "originalcapturelocation" : [
+    640,
+    146,
+    656,
+    64
+  ],
+  "lastfounddate" : 1722391512.1145859,
+  "name" : "HOTELPLANISPHERE_Logo"
 }

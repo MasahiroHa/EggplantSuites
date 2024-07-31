@@ -96,8 +96,7 @@ end 最長5泊_IsFound
 (* Autosnippets for Button "宿泊日" *)
 
 to handle 宿泊日_Click
-
-	put ReadText(["RL_Date_A","RL_Date_B"]) into sCurCalDate
+	put ReadText(["RL_Date_A","RL_Date_B"],validCharacters:"1234567890/",contrast:"on") into sCurCalDate
 	replace "/" by "-" in sCurCalDate
 	put sCurCalDate
 	
@@ -108,8 +107,10 @@ to handle 宿泊日_Click
 	
 	Click imageName:"宿泊日", waitFor:8
 	Set the SearchRectangle to ("CalenderAreaRL_A","CalenderAreaRL_B")
+	//	put ReadText(["CalenderBlueRU_A","CalenderBlueRU_B"],validcharacters:"1234567890") into today
+	// 2024/07/31 EPF23.3.2 for Win.
 	put ReadText(["CalenderBlueRU_A","CalenderBlueRU_B"]) into today
-
+	
 	put year(sCurCalDate) & "-" & curM & "-01" into sStDayOfM
 	add one month to sStDayOfM
 	put sStDayOfM - 1 day into sEndDayOfM
